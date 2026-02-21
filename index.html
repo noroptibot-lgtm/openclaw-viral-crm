@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Content CRM - Viral Edition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #d4af37;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #888;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        
+        .stats {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            color: #d4af37;
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        
+        .board {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 20px 0;
+        }
+        
+        .column {
+            min-width: 350px;
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #333;
+        }
+        
+        .column-header {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #d4af37;
+            text-align: center;
+            padding: 10px;
+            background: #2a2a2a;
+            border-radius: 6px;
+        }
+        
+        .card {
+            background: #2a2a2a;
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            border: 1px solid #333;
+            transition: all 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            border-color: #d4af37;
+            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.1);
+        }
+        
+        .card.expanded {
+            border-color: #d4af37;
+            background: #333;
+            box-shadow: 0 8px 30px rgba(212, 175, 55, 0.2);
+        }
+        
+        .card-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #ffffff;
+            font-size: 1.05rem;
+        }
+        
+        .card-hooks {
+            margin-bottom: 15px;
+        }
+        
+        .card-hook {
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-style: italic;
+            padding: 8px;
+            background: #1a1a1a;
+            border-radius: 4px;
+            border-left: 3px solid #d4af37;
+        }
+        
+        .card-captions {
+            margin-bottom: 15px;
+        }
+        
+        .card-caption {
+            background: #d4af37;
+            color: #000;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
+        
+        .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .card-platform {
+            background: #555;
+            color: #fff;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .card-score {
+            color: #d4af37;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .card-based {
+            color: #888;
+            font-size: 0.75rem;
+            font-style: italic;
+        }
+        
+        .card-length {
+            color: #666;
+            font-size: 0.75rem;
+        }
+        
+        .card-full-script {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #ccc;
+            white-space: pre-line;
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 3px solid #d4af37;
+            display: none;
+            max-height: 500px;
+            overflow-y: auto;
+            line-height: 1.5;
+        }
+        
+        .card-full-script.expanded {
+            display: block;
+        }
+        
+        .card-expand {
+            color: #d4af37;
+            font-size: 0.8rem;
+            margin-top: 15px;
+            cursor: pointer;
+            text-align: center;
+            padding: 8px;
+            background: #222;
+            border-radius: 4px;
+        }
+        
+        .card-expand:hover {
+            background: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .board {
+                flex-direction: column;
+            }
+            
+            .column {
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🦞 OpenClaw Content CRM</h1>
+        <p class="subtitle">VIRAL EDITION - 151M+ Views Proven Patterns</p>
+    </div>
+    
+    <div class="stats">
+        🔥 15 Premium Viral Scripts • Based on 151M+ Combined Views • Jason Cooperson + Top Creator Patterns<br>
+        📊 All 10/10 Quality • 3 Hook Variations • 3 Screen Captions • Ready to Film
+    </div>
+    
+    <div class="board">
+        <div class="column">
+            <div class="column-header">💡 Viral Scripts Ready</div>
+            <div id="ideas-column" class="cards-container">
+                <!-- Scripts will be loaded here -->
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="column-header">📝 Ready to Film</div>
+            <div id="ready-column" class="cards-container">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="column-header">🎬 Filmed</div>
+            <div id="filmed-column" class="cards-container">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="column-header">📱 Posted</div>
+            <div id="posted-column" class="cards-container">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="column-header">📊 Analytics</div>
+            <div id="analytics-column" class="cards-container">
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const SCRIPTS = [
+    {
+        "id": "comparison_humans_ai",
+        "title": "Viral Script 1: He automates his business with humans. A...",
+        "hooks": [
+            "He automates his business with humans. And he\u2026 uses OpenClaw. Who do you think will make more money?",
+            "He hires employees. And he\u2026 automates with AI. Who scales faster?",
+            "He works 12 hours a day. And he\u2026 lets OpenClaw work 24/7. Who wins?"
+        ],
+        "screen_captions": [
+            "HUMANS VS AI",
+            "WHO WINS?",
+            "AI DESTROYS HUMANS"
+        ],
+        "full_script": "So this guy hires a whole team. Customer service, marketing, operations. Spending 50K a month on salaries.\n\nThis other guy just sets up OpenClaw. One AI system handling everything.\n\nGuess who's making more money?\n\nThe guy with the team is stressed, managing people, dealing with sick days, vacation time, mistakes.\n\nThe OpenClaw guy? His AI works 24/7, never complains, never makes errors. He's literally sleeping while making money.\n\nIt's not even close anymore.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 463
+    },
+    {
+        "id": "day_in_life_money",
+        "title": "Viral Script 2: Day in the life of an OpenClaw user maki...",
+        "hooks": [
+            "Day in the life of an OpenClaw user making $47,000 a month.",
+            "Day in life making $47K/month with AI automation.",
+            "How I make $47K monthly with one AI system."
+        ],
+        "screen_captions": [
+            "$47K/MONTH WITH AI",
+            "AI = MONEY MACHINE",
+            "ONE AI SYSTEM"
+        ],
+        "full_script": "7am: Wake up to 47 new leads captured overnight by OpenClaw.\n\n8am: Check revenue dashboard. Made 3K while sleeping.\n\n9am: OpenClaw already responded to all customer inquiries. Perfect responses.\n\n10am: AI found 5 new arbitrage deals on FINN. Auto-messaged sellers.\n\n11am: Three meetings booked automatically. High-quality prospects.\n\nNoon: Content created, posted, optimized by AI.\n\nThis isn't luck. This is what happens when you let AI handle everything while you focus on strategy.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 483
+    },
+    {
+        "id": "save_8_hours",
+        "title": "Viral Script 3: I'm gonna save you 8 HOURS off your work...",
+        "hooks": [
+            "I'm gonna save you 8 HOURS off your workday, with OpenClaw automation.",
+            "Save 8 hours daily with this AI automation.",
+            "Cut your workday from 12 hours to 4 with OpenClaw."
+        ],
+        "screen_captions": [
+            "SAVE 8 HOURS/DAY",
+            "12 HOURS \u2192 4 HOURS",
+            "AI AUTOMATION"
+        ],
+        "full_script": "You're wasting 8 hours a day on tasks that AI can do in minutes.\n\nCustomer support? OpenClaw handles it instantly. Better than humans.\n\nLead generation? AI finds, qualifies, and books meetings automatically.\n\nContent creation? The AI writes, posts, and optimizes everything.\n\nData analysis? Real-time insights without spreadsheets.\n\nI went from 12-hour days to 4 hours of actual strategic work. The AI handles operations.\n\nThis isn't about working smarter. This is about not working at all.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 490
+    },
+    {
+        "id": "throw_away_employees",
+        "title": "Viral Script 4: It's time to throw away your employees....",
+        "hooks": [
+            "It's time to throw away your employees.",
+            "Time to fire your entire team.",
+            "Your employees are holding you back."
+        ],
+        "screen_captions": [
+            "FIRE YOUR TEAM",
+            "EMPLOYEES = DEAD WEIGHT",
+            "AI > HUMANS"
+        ],
+        "full_script": "Your employees are your biggest expense and your biggest weakness.\n\nThey get sick. They take vacations. They make mistakes. They need management.\n\nOpenClaw works 24/7, never calls in sick, never asks for raises, never makes emotional decisions.\n\nI fired my entire team and replaced them with one AI system. Cut costs by 80%, increased efficiency by 300%.\n\nThe hardest part wasn't the technology. It was admitting that humans are just inefficient for most business tasks.\n\nYour competition is already making this transition. How long until you're irrelevant?",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 557
+    },
+    {
+        "id": "minimum_work_millions",
+        "title": "Viral Script 5: What's the least amount of work you can ...",
+        "hooks": [
+            "What's the least amount of work you can do and still make millions?",
+            "Minimum effort, maximum profit with OpenClaw.",
+            "How to make millions with minimal work."
+        ],
+        "screen_captions": [
+            "MINIMUM WORK = MAX MONEY",
+            "LAZY = RICH",
+            "AI DOES EVERYTHING"
+        ],
+        "full_script": "The answer is almost zero work if you set it up right.\n\nOpenClaw handles lead generation, customer service, sales, operations, content creation. Everything.\n\nYou just need to:\n1. Set up the automation once\n2. Monitor results\n3. Scale what works\n\nI spend maybe 2 hours a day on actual work. The rest is the AI generating money.\n\nPeople think you need to grind to get rich. That's old thinking. The new way is building systems that work without you.\n\nMy AI makes more money in a day than most people make in a month. While I'm sleeping.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 534
+    },
+    {
+        "id": "business_secret_10x",
+        "title": "Viral Script 6: I finally found it. I found why some bus...",
+        "hooks": [
+            "I finally found it. I found why some businesses make 10x more money than yours.",
+            "The secret to 10x revenue that nobody talks about.",
+            "Why your competitors make 10x more than you."
+        ],
+        "screen_captions": [
+            "10X BUSINESS SECRET",
+            "SECRET REVEALED",
+            "COMPETITORS WIN"
+        ],
+        "full_script": "It's not their marketing. It's not their products. It's not their team.\n\nIt's automation.\n\nWhile you're manually handling customers, they have AI responding in seconds.\n\nWhile you're struggling with lead generation, their AI is finding and qualifying prospects 24/7.\n\nWhile you're creating content manually, their AI is producing optimized posts that actually convert.\n\nThe 10x businesses aren't 10x smarter. They just let AI handle the heavy lifting while they focus on growth.\n\nThis is the gap that's only getting bigger. AI-powered businesses vs manual businesses.\n\nWhich side are you on?",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 591
+    },
+    {
+        "id": "using_ai_wrong",
+        "title": "Viral Script 7: This is how most of you guys use AI\u2026...",
+        "hooks": [
+            "This is how most of you guys use AI\u2026",
+            "You're using AI completely wrong.",
+            "Stop using AI like this."
+        ],
+        "screen_captions": [
+            "YOU'RE USING AI WRONG",
+            "STOP DOING THIS",
+            "AI MISTAKE"
+        ],
+        "full_script": "You're using AI like a fancy Google search.\n\n'Hey ChatGPT, write me an email.'\n'Hey AI, give me some ideas.'\n\nThat's not AI. That's just an expensive text generator.\n\nReal AI usage is OpenClaw running your entire business while you sleep.\n\nIt's not asking AI questions. It's giving AI control.\n\nMost people are using AI as a tool. Smart people are using AI as their entire workforce.\n\nThe difference? One makes you slightly more productive. The other makes you millions.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 470
+    },
+    {
+        "id": "employees_bullshit",
+        "title": "Viral Script 8: I don't know who needs to hear this but ...",
+        "hooks": [
+            "I don't know who needs to hear this but the idea that you need employees to scale your business is BULLSHIT.",
+            "Employees are bullshit for scaling.",
+            "Stop believing you need a team to grow."
+        ],
+        "screen_captions": [
+            "EMPLOYEES = BULLSHIT",
+            "SCALING MYTH",
+            "AI SCALES BETTER"
+        ],
+        "full_script": "Everyone says 'you need a team to scale.'\n\nBullshit.\n\nEmployees don't scale your business. They scale your problems.\n\nMore payroll. More management. More mistakes. More drama.\n\nOpenClaw scales infinitely without any of that baggage.\n\nI went from 50K monthly revenue with 8 employees to 200K monthly revenue with zero employees.\n\nThe AI handles more customers, more leads, more operations than my entire team ever could.\n\nAnd it costs me $49 a month instead of $40K in salaries.\n\nEmployees were the bottleneck, not the solution.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 527
+    },
+    {
+        "id": "morning_routine_3k",
+        "title": "Viral Script 9: My 30 minute OpenClaw morning routine th...",
+        "hooks": [
+            "My 30 minute OpenClaw morning routine that makes me $3000",
+            "30 minutes to $3K with AI automation.",
+            "How my AI morning routine prints money."
+        ],
+        "screen_captions": [
+            "30 MIN = $3000",
+            "MORNING MONEY",
+            "AI ROUTINE"
+        ],
+        "full_script": "6:30am: Coffee and check overnight results.\n\nOpenClaw captured 23 leads, booked 4 meetings, closed 2 deals. $3,200 revenue while I slept.\n\n7:00am: Review AI's customer service responses. 47 inquiries handled perfectly.\n\n7:15am: Check FINN deals. AI found 3 profitable arbitrage opportunities, already sent messages.\n\n7:30am: Approve AI's content calendar for the week. 28 posts scheduled across all platforms.\n\nThat's it. 30 minutes of reviewing what my AI accomplished.\n\nThe rest of my day? Whatever I want. The AI keeps generating money.\n\nThis is what financial freedom actually looks like.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 592
+    },
+    {
+        "id": "broke_to_rich_3_months",
+        "title": "Viral Script 10: This is how I took my business from BROK...",
+        "hooks": [
+            "This is how I took my business from BROKE to absolutely PRINTING money in just 3 months, using OpenClaw.",
+            "Broke to rich in 3 months with AI automation.",
+            "How OpenClaw transformed my broke business."
+        ],
+        "screen_captions": [
+            "BROKE TO RICH",
+            "3 MONTHS TRANSFORMATION",
+            "AI MONEY PRINTER"
+        ],
+        "full_script": "January: $800 revenue. Broke, stressed, working 80-hour weeks.\n\nMarch: $73K revenue. Rich, relaxed, working 15 hours a week.\n\nWhat changed? OpenClaw.\n\nMonth 1: Set up AI automation for lead generation. Went from 10 leads to 400 leads monthly.\n\nMonth 2: Added customer service automation. Response time went from 6 hours to 30 seconds.\n\nMonth 3: Full business automation. Sales, marketing, operations. Everything runs itself.\n\nThe AI didn't just improve my business. It completely transformed how business works.\n\nThis isn't a gradual improvement. This is a complete paradigm shift.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 581
+    },
+    {
+        "id": "finally_figured_out",
+        "title": "Viral Script 11: I finally figured it out. I figured out ...",
+        "hooks": [
+            "I finally figured it out. I figured out how these millionaires actually make their money.",
+            "Millionaire money secret finally revealed.",
+            "The real way millionaires get rich."
+        ],
+        "screen_captions": [
+            "MILLIONAIRE SECRET",
+            "FINALLY REVEALED",
+            "REAL WAY TO WEALTH"
+        ],
+        "full_script": "It's not real estate. It's not crypto. It's not stocks.\n\nIt's automation.\n\nEvery millionaire I know has one thing in common: their money comes from systems that work without them.\n\nOpenClaw is that system for the AI era.\n\nWhile you're trading time for money, they're using AI to generate money 24/7.\n\nIt's not about working harder or being smarter. It's about building automated systems that scale infinitely.\n\nThe millionaires of the next decade won't be investors or entrepreneurs. They'll be automation builders.\n\nThe question is: are you building or are you still grinding?",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 577
+    },
+    {
+        "id": "impossible_task_ai",
+        "title": "Viral Script 12: I gave OpenClaw an impossible task. What...",
+        "hooks": [
+            "I gave OpenClaw an impossible task. What happened next will blow your mind.",
+            "Impossible AI challenge results.",
+            "This AI task should have been impossible."
+        ],
+        "screen_captions": [
+            "IMPOSSIBLE TASK",
+            "AI BLEW MY MIND",
+            "SHOULDN'T BE POSSIBLE"
+        ],
+        "full_script": "I told OpenClaw: 'Find 1000 qualified leads, write personalized outreach for each, book 100 meetings, and close 25 deals. You have one week.'\n\nI expected it to fail miserably.\n\nDay 7 results:\n- 1,247 leads found and verified\n- 1,247 personalized messages sent\n- 127 meetings booked\n- 34 deals closed\n\nTotal revenue: $187K in one week.\n\nThis AI just did what would take my old sales team 6 months. In 7 days.\n\nI'm not celebrating. I'm terrified. If AI can do this now, what happens to every sales job on the planet?\n\nWe're not talking about the future. This is happening right now.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 580
+    },
+    {
+        "id": "rich_parents_wrong",
+        "title": "Viral Script 13: Rich parents teach their kids one thing ...",
+        "hooks": [
+            "Rich parents teach their kids one thing that poor parents never do.",
+            "What rich parents teach vs poor parents.",
+            "The one lesson that separates rich kids from poor kids."
+        ],
+        "screen_captions": [
+            "RICH PARENT SECRET",
+            "RICH VS POOR KIDS",
+            "ONE LESSON"
+        ],
+        "full_script": "Poor parents say: 'Work hard and you'll be successful.'\n\nRich parents say: 'Build systems and let them work for you.'\n\nPoor kids grow up trading time for money.\n\nRich kids grow up building automated income streams.\n\nOpenClaw is the ultimate system. It works 24/7 generating money while you focus on building more systems.\n\nThe rich don't work harder. They build better systems.\n\nThis AI is the system that separates the rich from everyone else.\n\nAre you teaching your kids to work or to build?",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 493
+    },
+    {
+        "id": "everyone_learning_wrong",
+        "title": "Viral Script 14: Everyone is learning AI, nobody is learn...",
+        "hooks": [
+            "Everyone is learning AI, nobody is learning automation.",
+            "You're learning AI wrong.",
+            "Stop learning AI, start learning this."
+        ],
+        "screen_captions": [
+            "LEARNING AI WRONG",
+            "AUTOMATION > AI",
+            "STOP LEARNING THIS"
+        ],
+        "full_script": "Everyone's taking AI courses, learning prompts, studying ChatGPT.\n\nThat's like learning to use a calculator instead of learning math.\n\nThe real skill isn't using AI. It's building automated systems with AI.\n\nOpenClaw isn't just AI. It's complete business automation powered by AI.\n\nWhile people are learning to chat with AI, smart people are learning to let AI run their entire business.\n\nPrompt engineering won't make you rich. Business automation will.\n\nStop learning tools. Start learning systems.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 500
+    },
+    {
+        "id": "quit_everything",
+        "title": "Viral Script 15: I quit everything to focus on OpenClaw a...",
+        "hooks": [
+            "I quit everything to focus on OpenClaw automation. Best decision of my life.",
+            "Why I quit my 6-figure job for AI automation.",
+            "Quitting everything for OpenClaw was genius."
+        ],
+        "screen_captions": [
+            "QUIT EVERYTHING",
+            "BEST DECISION EVER",
+            "AI > JOB"
+        ],
+        "full_script": "Everyone thought I was crazy.\n\nQuit my $150K job to build OpenClaw automations full-time.\n\nThree months later: $200K revenue, working 10 hours a week.\n\nThe AI handles everything. Lead generation, sales, customer service, operations.\n\nI went from being an employee in someone else's system to building my own automated empire.\n\nThe 9-to-5 was the cage. OpenClaw was the key.\n\nBest part? I can run this from anywhere. Beach, mountains, another country.\n\nFreedom isn't having money. Freedom is having systems that generate money without you.",
+        "platform": "IG",
+        "virality_score": 10,
+        "based_on": "151M+ view patterns",
+        "length": 538
+    }
+];
+        
+        function createCard(script) {
+            const hooksHtml = script.hooks.map((hook, i) => 
+                `<div class="card-hook">${i+1}. ${hook}</div>`
+            ).join('');
+            
+            const captionsHtml = script.screen_captions.map(caption => 
+                `<span class="card-caption">${caption}</span>`
+            ).join('');
+            
+            return `
+                <div class="card" data-id="${script.id}" onclick="toggleCard(this)">
+                    <div class="card-title">${script.title}</div>
+                    
+                    <div class="card-hooks">
+                        <strong>Hook Options:</strong><br>
+                        ${hooksHtml}
+                    </div>
+                    
+                    <div class="card-captions">
+                        <strong>Screen Captions:</strong><br>
+                        ${captionsHtml}
+                    </div>
+                    
+                    <div class="card-meta">
+                        <span class="card-platform">${script.platform}</span>
+                        <span class="card-score">🔥 ${script.virality_score}/10</span>
+                        <span class="card-based">${script.based_on}</span>
+                        <span class="card-length">${script.length} chars</span>
+                    </div>
+                    
+                    <div class="card-full-script">
+                        <strong>Full Conversational Script:</strong><br><br>
+                        ${script.full_script}
+                    </div>
+                    
+                    <div class="card-expand">Click to view full script ↓</div>
+                </div>
+            `;
+        }
+        
+        function toggleCard(cardElement) {
+            const isExpanded = cardElement.classList.contains('expanded');
+            
+            // Close all other cards
+            document.querySelectorAll('.card').forEach(card => {
+                card.classList.remove('expanded');
+                card.querySelector('.card-full-script').classList.remove('expanded');
+            });
+            
+            if (!isExpanded) {
+                cardElement.classList.add('expanded');
+                cardElement.querySelector('.card-full-script').classList.add('expanded');
+                cardElement.querySelector('.card-expand').textContent = 'Click to collapse ↑';
+            } else {
+                cardElement.querySelector('.card-expand').textContent = 'Click to view full script ↓';
+            }
+        }
+        
+        function loadScripts() {
+            const ideasColumn = document.getElementById('ideas-column');
+            SCRIPTS.forEach(script => {
+                ideasColumn.innerHTML += createCard(script);
+            });
+        }
+        
+        document.addEventListener('DOMContentLoaded', loadScripts);
+    </script>
+</body>
+</html>
