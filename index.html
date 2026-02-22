@@ -313,7 +313,7 @@
         
         async function loadScripts() {
             try {
-                const response = await fetch('scripts.json');
+                const response = await fetch('scripts.json?v=' + Date.now());
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
