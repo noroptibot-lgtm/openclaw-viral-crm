@@ -1,451 +1,296 @@
 {
-  "version": "v6-full-scripts",
+  "version": "v7-actionable",
   "updated": "2026-02-22",
   "stats": {
-    "total_scripts": 20,
-    "type": "FULL SCRIPTS - Every word Albert says",
-    "source": "Real AI news + competitor analysis + @albert.olgaard style"
+    "total_scripts": 15,
+    "type": "Actionable scripts based on top reels from all 12 creators",
+    "source": "Top 5 per creator → rewritten as actionable, natural scripts"
   },
   "scripts": [
     {
-      "id": "react-voice-cloning-controversy",
-      "title": "React to AI Voice Cloning Controversy",
-      "status": "ready",
-      "competitor_style": "@baroobi — 922K views",
+      "id": "sell-ai-agents-40k",
+      "title": "How to sell AI agents for $40K/month",
+      "status": "draft",
+      "competitor_style": "@albert.olgaard — 1.28M views",
       "hooks": [
-        "Bro, they're literally cloning people's voices without asking them first",
-        "ElevenLabs just got sued and honestly, they deserved it",
-        "This is why I don't trust AI voice companies anymore"
+        "There's a service you can sell right now for 10 to 40 thousand dollars a month. And most people have no idea it exists.",
+        "I know people making 40K a month selling something that takes two hours to set up. Let me show you exactly how.",
+        "The easiest high-ticket service to sell in 2026 is AI agents. Here's the step-by-step."
       ],
       "screen_captions": [
-        "ElevenLabs sued for voice cloning without consent",
-        "Your voice could be next 😰",
-        "AI companies crossing the line"
+        "$40K/MONTH SERVICE",
+        "AI AGENTS = MONEY",
+        "STEP BY STEP GUIDE"
       ],
-      "full_script": "[SHOW: ElevenLabs lawsuit headline from The Voice Realm] \"Okay so ElevenLabs just got hit with a massive lawsuit and honestly, I saw this coming from miles away.\" [SHOW: Court document screenshot showing plaintiffs requesting ElevenLabs stop creating voices] \"Two voice actors are suing them because ElevenLabs was literally cloning their voices without permission. Like, imagine someone taking your voice and selling it to make money.\" [SHOW: Tennessee ELVIS Act 2024 headline] \"And here's the crazy part - Tennessee just passed the ELVIS Act specifically to stop AI voice cloning. They named it after Elvis, bro.\" [SHOW: Text overlay: \"Check consent before cloning\"] \"Look, AI voice tech is incredible. But you can't just steal someone's voice. That's their livelihood. This is exactly why we need better regulations in AI.\"",
+      "full_script": "There's a service you can sell right now for 10 to 40 thousand dollars a month. And most people have no idea it exists.\n\n[SHOW: Screen recording of an AI agent handling emails, scheduling, CRM updates]\n\nIt's called AI agent setup. Basically, you take a tool like OpenClaw or Claude Code, you configure it for a business owner, and you charge them monthly to maintain it.\n\nHere's exactly how you do it. Step one. Find a business owner who's drowning in admin work. Think real estate agents, e-commerce brands, marketing agencies. They're everywhere.\n\n[SHOW: Quick scroll through LinkedIn/Instagram showing business owners complaining about workload]\n\nStep two. You set up an AI agent that handles their repetitive tasks. Email responses, lead qualification, appointment scheduling, data entry. This takes you maybe two to four hours.\n\nStep three. You charge them 2 to 5 thousand for the setup, then 1 to 3 thousand per month to manage it. They're saving 20 hours a week. That's easily worth 3K to them.\n\n[SHOW: Simple pricing table on screen — Setup: $2-5K, Monthly: $1-3K]\n\nThe crazy part? Once you've done it for one client in a niche, you can literally copy the same setup for the next client in 30 minutes. Same templates, same workflows, just different login credentials.\n\nI'm doing this right now in Norway and the demand is insane because most businesses here haven't even heard of AI agents yet. If you want the full breakdown of how to find clients and close them, drop a comment.",
       "platform": "IG",
-      "duration_estimate": "45 seconds",
-      "notes": "Real lawsuit from The Voice Realm. Tennessee ELVIS Act is real 2024 legislation."
+      "notes": "Based on albert.olgaard's 1.28M view reel. Actionable — actual steps, not just hype."
     },
     {
-      "id": "react-ai-job-screening",
-      "title": "React to AI Job Screening Bias",
-      "status": "ready",
-      "competitor_style": "@baroobi — 650K views",
+      "id": "day-experiment-ai-business",
+      "title": "Day 1: I gave AI full control of my business",
+      "status": "draft",
+      "competitor_style": "@buildwithcody — 827K views (Day 2), 231K views (Day 1)",
       "hooks": [
-        "65% of employers are about to use AI to reject your job application",
-        "AI is literally screening you out before humans even see your resume",
-        "The job market just got way more unfair and here's why"
+        "Can an AI agent actually run a business and make real money? I'm about to find out.",
+        "Everyone says AI can replace your job. So I'm giving it mine. Day one starts now.",
+        "I just gave an AI agent access to my entire business. My CRM, my emails, my ad accounts. Let's see what happens."
       ],
       "screen_captions": [
-        "65% of employers using AI to reject candidates in 2025",
-        "Qualified candidates being auto-rejected",
-        "AI bias is real and it's costing you jobs"
+        "AI RUNS MY BUSINESS",
+        "DAY 1 — FULL ACCESS",
+        "WILL IT MAKE MONEY?"
       ],
-      "full_script": "[SHOW: Forbes headline \"65% Of Employers To Use AI To Reject Candidates In 2025\"] \"Forbes just dropped this stat that honestly made me sick to my stomach. 65% of employers are planning to use AI to automatically reject job candidates this year.\" [SHOW: University of Washington study on AI bias in resume screening] \"And here's the worst part - researchers at University of Washington found that AI tools are biased against certain names. Like, if your name sounds Black or Hispanic, the AI ranks you lower.\" [SHOW: Text overlay: \"93% of Fortune 500 companies already using AI screening\"] \"Gallup found that 93% of Fortune 500 companies are already doing this. So if you're wondering why you're not hearing back from jobs, it might not even be your qualifications.\" [SHOW: Screenshot of resume with missing keywords highlighted] \"The AI is looking for specific keywords. Miss a few? You're automatically rejected. No human ever sees your application. It's honestly broken.\"",
+      "full_script": "Can an AI agent actually run a business and make real money? I'm about to find out.\n\n[SHOW: Your Mac Mini setup with OpenClaw running, Telegram notifications]\n\nSo here's what I did. I gave my AI agent full access to everything. My CRM with all my client data. My email inbox. My ad accounts. My calendar. Everything.\n\nThe rules are simple. For the next seven days, the AI handles everything that doesn't require my face on a camera. Client emails, lead follow-ups, ad monitoring, competitor research, scheduling.\n\n[SHOW: Screenshot of the AI's first actions — emails sent, leads scraped, calendar updated]\n\nDay one results. It sent 12 follow-up emails to leads that I'd been ignoring for two weeks. It flagged one ad campaign that was overspending by 40 percent and paused it. And it booked two discovery calls with potential clients.\n\nBut here's the thing nobody talks about. It also sent one email that was completely wrong. Like, it recommended a service we don't even offer. I caught it, fixed it, moved on.\n\nThat's the reality. It's not perfect. But it did more in 8 hours than I would've done in three days. Follow for day two because I actually went to sleep and I'm curious what it did overnight.",
       "platform": "IG",
-      "duration_estimate": "60 seconds",
-      "notes": "Real Forbes stat from 2024. University of Washington study is legitimate research."
+      "notes": "Series format. Cody's Day X gets 200K-800K per episode. KEY: be honest about failures."
     },
     {
-      "id": "react-openai-breach",
-      "title": "React to OpenAI Data Breach",
-      "status": "ready",
-      "competitor_style": "@baroobi — 580K views",
+      "id": "ai-agent-setup-3-steps",
+      "title": "Set up an AI agent that works 24/7 in 3 steps",
+      "status": "draft",
+      "competitor_style": "@baroobi — 248K views",
       "hooks": [
-        "OpenAI just confirmed a data breach and you need to know about this",
-        "If you use ChatGPT through any app, your data might be exposed",
-        "This is exactly why I don't trust big AI companies with my data"
+        "Stop paying a virtual assistant. Set up an AI agent that works 24/7 for less than a dollar a day. Here's how.",
+        "Three steps to set up an AI assistant that never sleeps, never complains, and costs almost nothing.",
+        "I replaced a $2000 per month VA with an AI that costs me 80 cents a day. Let me show you the exact setup."
       ],
       "screen_captions": [
-        "OpenAI confirms data breach - API users affected",
-        "Your ChatGPT data might be leaked",
-        "Another AI company, another breach"
+        "REPLACE YOUR VA",
+        "3 STEPS — AI AGENT",
+        "$0.80/DAY ASSISTANT"
       ],
-      "full_script": "[SHOW: Forbes headline \"OpenAI Data Breach Exposes API User Info\"] \"OpenAI just confirmed a data breach and if you use ChatGPT through any third-party app, you need to pay attention.\" [SHOW: Decrypt article showing breach details] \"So here's what happened - it wasn't direct ChatGPT users. It was people who used ChatGPT through other apps. Those API users had their data exposed through a Mixpanel security incident.\" [SHOW: Text overlay: \"No prompts or API keys leaked (they claim)\"] \"They're saying no prompts or API keys were leaked, but honestly, how many times have we heard that before?\" [SHOW: Screenshot of OpenAI's security statement] \"Look, I use AI tools for my business every day. But this is exactly why I never put sensitive client data through these systems. Trust but verify, bro.\"",
+      "full_script": "I replaced a 2000 dollar per month virtual assistant with an AI that costs me 80 cents a day. Let me show you the exact setup.\n\n[SHOW: Terminal with OpenClaw running]\n\nStep one. Get a Mac Mini or any computer that can stay on 24/7. Doesn't need to be fancy. The base model works fine. Install OpenClaw on it. Takes about 10 minutes.\n\n[SHOW: OpenClaw install command in terminal]\n\nStep two. Connect it to your tools. I connected mine to Telegram so I can message it like a real assistant. Then I hooked it up to my Google Calendar, my email, and my CRM. Each connection takes about 5 minutes.\n\n[SHOW: Quick montage of connecting Telegram, Calendar, CRM]\n\nStep three. Give it a job description. Seriously. Just like you would for a human assistant. I told mine — check my emails every hour, flag anything urgent, draft responses for the rest. Monitor my ad campaigns and tell me if anything drops below target. And every morning, send me a summary of what happened overnight.\n\n[SHOW: The actual morning summary message on Telegram]\n\nThat's it. Three steps. It now handles about 70 percent of what my VA used to do. The other 30 percent still needs a human, and that's fine. But 70 percent automated means I got 3 hours back every single day.\n\nIf you want the exact prompts I use, follow and I'll post them this week.",
       "platform": "IG",
-      "duration_estimate": "50 seconds",
-      "notes": "Real OpenAI Mixpanel incident from December 2025. Decrypt and Forbes coverage is legitimate."
+      "notes": "Actionable tutorial. Baroobi's 'how to fix in 3 steps' format but for setup, not security."
     },
     {
-      "id": "react-ai-fake-news",
-      "title": "React to AI-Generated Fake News During Elections",
-      "status": "ready",
-      "competitor_style": "@baroobi — 445K views",
+      "id": "5-automations-any-business",
+      "title": "5 things AI can automate in ANY business today",
+      "status": "draft",
+      "competitor_style": "@mattganzak — 96K views",
       "hooks": [
-        "AI-generated fake news is literally swaying elections now",
-        "We just saw the first election influenced by AI deepfakes",
-        "Democracy is broken and AI is making it worse"
+        "Five things you're still doing manually that AI can handle right now. Not in five years. Right now.",
+        "If you run a business and you're doing any of these five things manually, you're wasting hours every week.",
+        "Here are five automations I set up for clients that save them 20 plus hours a week. Each one takes under an hour."
       ],
       "screen_captions": [
-        "AI deepfakes influencing elections worldwide",
-        "Fake news goes viral faster than truth",
-        "Democracy vs AI manipulation"
+        "5 AI AUTOMATIONS",
+        "STOP DOING THIS MANUALLY",
+        "SAVE 20 HOURS/WEEK"
       ],
-      "full_script": "[SHOW: Multiple deepfake election videos compilation] \"We just witnessed something terrifying. AI-generated fake news videos got millions of views during recent elections and people actually believed them.\" [SHOW: Research showing fake news spreads 6x faster than real news] \"MIT research shows fake news spreads six times faster than real news on social media. Now add AI that can create perfect deepfakes in minutes.\" [SHOW: Examples of political deepfake videos] \"I saw deepfake videos of politicians saying things they never said, and the comments were full of people who thought it was real.\" [SHOW: Text overlay: \"How do we fix this?\"] \"The scary part? We're not ready for this. Social media platforms can't detect this stuff fast enough. We need media literacy education like, yesterday.\"",
+      "full_script": "Five things you're still doing manually that AI can handle right now.\n\nNumber one. Email responses. If you're spending 45 minutes every morning going through emails, you're doing it wrong. Set up an AI that reads every email, drafts a response, and sends you only the ones that actually need your brain. Everything else gets handled automatically.\n\n[SHOW: Before/after — inbox with 47 unread vs AI-sorted inbox with 5 flagged]\n\nNumber two. Lead follow-up. You know those leads that come in at 2am and you forget to respond until the next afternoon? Your AI responds in 30 seconds. Every time. I set this up for a real estate agent and his booking rate went from 15 percent to 40 percent just because he was responding faster.\n\n[SHOW: Timestamp comparison — lead comes in 2:14am, AI responds 2:14am]\n\nNumber three. Social media monitoring. Instead of manually checking what your competitors are posting, your AI scrapes their content every day and sends you a summary. What hooks they're using, what's getting engagement, what topics are trending.\n\n[SHOW: A competitor analysis report — hooks, views, engagement rates]\n\nNumber four. Meeting notes and action items. Record your calls, AI transcribes them, pulls out every action item, and adds them to your project management tool. No more forgetting what you promised on a call.\n\n[SHOW: Fathom/transcript → Asana task board]\n\nNumber five. Invoice and payment reminders. Your AI checks who hasn't paid, sends a polite reminder, and escalates if they don't respond in 48 hours. I had one client recover 12 thousand dollars in overdue invoices the first week.\n\n[SHOW: Payment reminder email + \"$12K recovered\" text]\n\nEvery single one of these takes less than an hour to set up. Which one are you doing manually right now?",
       "platform": "IG",
-      "duration_estimate": "55 seconds",
-      "notes": "MIT research on fake news spread is real. Elections deepfakes are documented issue."
+      "notes": "Pure value. Each automation is specific and actionable. Mattganzak walkthrough style."
     },
     {
-      "id": "chrome-extensions-stealing-data",
-      "title": "Chrome Extensions Stealing Your Data",
-      "status": "ready",
-      "competitor_style": "@baroobi — 390K views",
+      "id": "hormozi-framework",
+      "title": "The $100M framework that changed how I sell",
+      "status": "draft",
+      "competitor_style": "@buildwithcody — 65K views + @albert.olgaard — 44K views",
       "hooks": [
-        "300 Chrome extensions just got caught stealing your data",
-        "If you have Chrome extensions, you need to watch this",
-        "Your browser extensions are literally spying on you"
+        "Alex Hormozi has a framework for making offers so good that people feel stupid saying no. Here's how I use it.",
+        "I read a book that completely changed how I price my services. And no, it's not what you think.",
+        "The reason most people can't sell AI services is because their offer sucks. Here's the fix."
       ],
       "screen_captions": [
-        "300+ malicious Chrome extensions discovered",
-        "37 million combined downloads affected",
-        "Your data is being stolen right now"
+        "OFFERS THEY CAN'T REFUSE",
+        "THE $100M FRAMEWORK",
+        "FIX YOUR OFFER"
       ],
-      "full_script": "[SHOW: SecurityWeek headline about 300 malicious Chrome extensions] \"Security researchers just exposed over 300 Chrome extensions that are actively stealing user data. We're talking 37 million combined downloads.\" [SHOW: Screenshot of malicious extension in Chrome Web Store] \"And here's the crazy part - these weren't sketchy extensions. Some had thousands of five-star reviews and looked completely legitimate.\" [SHOW: List of data being stolen: browsing history, passwords, personal info] \"They're collecting your browsing history, personal information, and some are even trying to steal passwords. Like, everything you do online.\" [SHOW: Chrome extension permissions screen] \"Here's what you need to do right now - go through your Chrome extensions. If you don't actively use it or remember installing it, delete it. Your privacy is worth more than convenience.\"",
+      "full_script": "Alex Hormozi has a framework for making offers so good that people feel stupid saying no. Let me show you how I actually use it.\n\nThe formula is simple. Value equals dream outcome times perceived likelihood of success divided by time delay times effort and sacrifice.\n\n[SHOW: The formula written on screen cleanly]\n\nSounds complicated. It's not. Here's what it means in practice.\n\nWhen I sell AI automation to a business owner, I don't say 'I'll set up an AI agent for you.' That's boring. Nobody gets excited about that.\n\nInstead I say 'I'm going to save you 20 hours a week, get your leads responded to in under 60 seconds instead of 6 hours, and the whole thing is set up in 48 hours with zero effort from your team.'\n\n[SHOW: Side by side — boring offer vs Hormozi-style offer]\n\nSame exact service. But now the dream outcome is clear — save 20 hours. The likelihood feels high because I mentioned the specific 60-second response time. The time delay is tiny — 48 hours. And the effort is zero.\n\nThat one reframe took my close rate from like 20 percent to over 50 percent. I went from chasing clients to clients chasing me.\n\nThe book is called $100M Offers. It's free as an audiobook. If you sell anything — AI services, marketing, freelancing — this framework will change your revenue overnight.",
       "platform": "IG",
-      "duration_estimate": "50 seconds",
-      "notes": "Real SecurityWeek report. 300+ extensions, 37M downloads is accurate from research."
+      "notes": "Book recommendation + actual application. Sounds scammy format from Cody but with real tactical value."
     },
     {
-      "id": "api-keys-github-leak",
-      "title": "Major AI Company API Keys Leaked on GitHub",
-      "status": "ready",
-      "competitor_style": "@baroobi — 320K views",
+      "id": "one-person-ai-business",
+      "title": "How to run a one-person AI business making 6 figures",
+      "status": "draft",
+      "competitor_style": "@simonbeard — 44K views",
       "hooks": [
-        "A major AI company just leaked API keys on GitHub and it's bad",
-        "Developers are literally exposing million-dollar AI credits",
-        "This GitHub leak could bankrupt startups"
+        "One person. No employees. No office. Making six figures selling AI services. Here's the exact model.",
+        "You don't need a team to run an AI business. You need three tools and one skill. Let me explain.",
+        "The easiest business model I've ever seen is selling AI automation. One person can do 10K a month within 90 days."
       ],
       "screen_captions": [
-        "AI API keys worth millions leaked on GitHub",
-        "Free AI credits = massive bills for companies",
-        "GitGuardian finds 12M secrets on GitHub"
+        "ONE PERSON. SIX FIGURES.",
+        "NO TEAM NEEDED",
+        "THE AI BUSINESS MODEL"
       ],
-      "full_script": "[SHOW: GitGuardian report on secrets leaked on GitHub] \"GitGuardian just found over 12 million secrets leaked on GitHub this year, including API keys for OpenAI, Anthropic, and Google.\" [SHOW: Screenshot of exposed API key in code repository] \"And here's why this is catastrophic - one leaked OpenAI API key can rack up thousands of dollars in charges before you even notice.\" [SHOW: Example of $20,000 API bill] \"I know a startup that got a $20,000 bill because someone found their API key and used it to mine Bitcoin with GPT-4. Twenty thousand dollars, gone.\" [SHOW: Text overlay: \"Use environment variables, not hardcoded keys\"] \"If you're a developer, never hardcode API keys. Use environment variables. And for the love of everything, don't commit your .env files. This is basic security, people.\"",
+      "full_script": "One person. No employees. No office. Making six figures selling AI services. Here me out because this is the simplest business model I've seen.\n\nYou need three things. A laptop. An AI tool like OpenClaw or Claude Code. And the ability to talk to business owners.\n\n[SHOW: Simple diagram — laptop + AI tool + communication = money]\n\nHere's the model. You find small businesses that are drowning in admin work. Dentists, real estate agents, marketing agencies, e-commerce stores. You set up AI automations that handle their repetitive tasks. You charge them monthly.\n\nThe math works like this. Ten clients paying you 2000 a month is 20K per month. 240K per year. And once you set up a client, the maintenance takes maybe 2 hours per month per client.\n\n[SHOW: Calculator — 10 clients × $2K = $20K/month = $240K/year]\n\nThat's 20 hours a month to maintain a 240K business. The rest of your time goes into finding new clients and improving your systems.\n\nBut here's the part nobody talks about. The first three clients are the hardest. After that, your existing clients start referring you. I got my fourth and fifth client from referrals without spending a single dollar on marketing.\n\n[SHOW: Simple referral chain graphic]\n\nThe skill stack you need. Basic AI tool setup — you can learn this in a weekend. Basic sales — just have honest conversations about their problems. And basic project management — deliver what you promise.\n\nThat's it. No coding. No fancy website. No team. Just solve problems with AI and charge for it.",
       "platform": "IG",
-      "duration_estimate": "55 seconds",
-      "notes": "GitGuardian 12M secrets stat is real from their 2024 report."
+      "notes": "Simon Beard's 'one person revolution' format but specifically for AI services."
     },
     {
-      "id": "apple-intelligence-privacy",
-      "title": "Apple Intelligence Privacy Issues",
-      "status": "ready",
-      "competitor_style": "@baroobi — 285K views",
+      "id": "automate-meta-ads",
+      "title": "How to monitor Meta Ads with AI (save 3 hours/day)",
+      "status": "draft",
+      "competitor_style": "@noevarner.ai — 256K views",
       "hooks": [
-        "Apple Intelligence is sending your data to servers when it doesn't need to",
-        "Even Apple can't get AI privacy right",
-        "Your iPhone is listening more than Apple wants you to know"
+        "Stop manually checking your Meta Ads dashboard. Set up AI monitoring in 60 seconds and save 3 hours every day.",
+        "If you're running Meta Ads and you're still checking them manually, you're leaving money on the table. Here's the fix.",
+        "I connected AI to my Meta Ad account and it caught a problem at 3am that would've cost me 500 dollars. Here's how."
       ],
       "screen_captions": [
-        "Apple Intelligence privacy gaps exposed",
-        "Siri sends WhatsApp messages to Apple servers",
-        "On-device processing isn't always on-device"
+        "META ADS + AI",
+        "SAVE 3 HOURS/DAY",
+        "CAUGHT $500 MISTAKE AT 3AM"
       ],
-      "full_script": "[SHOW: CyberScoop headline about Apple Intelligence privacy research] \"Researchers just presented findings at Black Hat that Apple Intelligence has privacy gaps nobody's talking about.\" [SHOW: Technical diagram showing data flow to Apple servers] \"So Apple says everything is processed on-device for privacy, right? Well, Siri is sending the content of your WhatsApp messages to Apple servers even when it doesn't need to.\" [SHOW: Apple's privacy marketing vs reality comparison] \"Apple built their entire brand on privacy, but even they can't resist the temptation to collect data for their AI models.\" [SHOW: Settings screen for Apple Intelligence] \"Look, I still think Apple is better than Google for privacy. But this shows that no company is perfect. Always check your AI privacy settings, even on iPhone.\"",
+      "full_script": "I connected AI to my Meta Ad account and it caught a problem at 3am that would've cost me 500 dollars by morning.\n\n[SHOW: Telegram notification at 3:14am — 'Alert: Campaign X CPA spiked to $47, pausing ad set']\n\nHere's the setup. Go to developers.facebook.com. Create an app. Takes 2 minutes. Give it ads_read and ads_management permissions. Copy your access token.\n\n[SHOW: Facebook Developers dashboard, highlight the token]\n\nDrop that token into your AI agent config. Now tell it — monitor all active campaigns every 30 minutes. If CPA goes above my target, pause the ad set and message me. If spend exceeds daily budget by 20 percent, alert me immediately.\n\n[SHOW: The actual prompt/config for the AI agent]\n\nThat's literally it. Your AI now watches your ads 24/7. It catches budget bleeds at 3am. It pauses underperformers before they waste money. And every morning it sends you a summary — which campaigns are profitable, which need attention, what your ROAS looks like.\n\n[SHOW: Morning summary — Campaign performance table with green/red indicators]\n\nI run ads for multiple clients. Before this, I was spending 3 hours a day just checking dashboards. Now I spend 15 minutes reviewing what the AI flagged. The rest runs on autopilot.\n\nIf you run ads for yourself or clients, this is the first automation you should set up. It literally pays for itself in the first week.",
       "platform": "IG",
-      "duration_estimate": "50 seconds",
-      "notes": "Real CyberScoop report from Black Hat 2025. Lumia Security research is legitimate."
+      "notes": "Noe Varner's ultra-actionable tutorial style. 256K views on his Meta Ads + Claude reel."
     },
     {
-      "id": "day1-ai-business-experiment",
-      "title": "Day 1 - AI Running My Business Experiment",
-      "status": "ready",
-      "competitor_style": "@buildwithcody — 680K views",
+      "id": "ai-overnight-mvp",
+      "title": "I built an entire app overnight with AI for 3 cents",
+      "status": "draft",
+      "competitor_style": "@mattganzak — 70K views",
       "hooks": [
-        "I'm letting AI run my business for a week and documenting everything",
-        "Day 1 of letting Claude handle all my client work",
-        "This AI experiment could either make me rich or destroy my business"
+        "I went to sleep. Woke up. And my AI had built an entire working app. Total cost — 3 cents.",
+        "People are paying developers 50K to build apps. I paid 3 cents and got mine overnight. Here's how.",
+        "The most expensive part of building an app used to be hiring a developer. Now it costs 3 cents and 8 hours of sleep."
       ],
       "screen_captions": [
-        "Day 1: AI takes over my consulting business",
-        "Can AI run a business better than humans?",
-        "Real experiment, real consequences"
+        "$0.03 APP 💰",
+        "BUILT WHILE I SLEPT",
+        "AI DEVELOPER = 3 CENTS"
       ],
-      "full_script": "[SHOW: Dashboard showing current business metrics] \"Okay, so my AI consulting business makes about $50K a month. Today I'm handing everything over to AI for one week to see what happens.\" [SHOW: Claude interface with business prompts] \"I've set up Claude to handle client communications, create proposals, and even manage my calendar. It has access to all my business templates and client history.\" [SHOW: First AI-generated client email] \"First test - a potential client just emailed asking about our services. Instead of me responding, Claude is writing back. And honestly, it sounds better than how I usually write.\" [SHOW: Text overlay: \"Following this experiment? Comment 'DAY 1'\"] \"I'm genuinely nervous about this. My reputation is on the line. But if AI can run my business better than me, that changes everything. Follow along - this could get wild.\"",
+      "full_script": "I went to sleep last night. Woke up this morning. And my AI had built an entire working app. Total cost — 3 cents.\n\n[SHOW: Terminal showing the AI coding session — files created, tests passing]\n\nHere's what I did. Before bed, I gave my AI a detailed prompt. Build me a web app that takes a list of Instagram usernames, scrapes their top performing content, and displays it in a dashboard sorted by engagement.\n\n[SHOW: The actual prompt you gave it]\n\nI specified the tech stack. React frontend, Python backend, clean UI. Then I hit enter and went to sleep.\n\n[SHOW: Time-lapse or morning screenshot — 847 lines of code, 12 files created]\n\n8 hours later, I had a fully working app. 847 lines of code across 12 files. Frontend, backend, API connections, all working. I opened it up, typed in some usernames, and it worked on the first try.\n\n[SHOW: The actual working app in browser — dashboard with real data]\n\nNow, was it perfect? No. I spent about 30 minutes tweaking the design and fixing one API endpoint. But 30 minutes of polish versus building the whole thing from scratch? That's insane.\n\nThe 3 cents was the actual API cost for the AI tokens it used overnight. Not a monthly subscription. Not a developer's hourly rate. Three cents.\n\nIf you have an app idea you've been sitting on, stop waiting. Give it to an AI tonight and wake up to a working prototype tomorrow.",
       "platform": "IG",
-      "duration_estimate": "60 seconds",
-      "notes": "Series format like @buildwithcody. $50K/month is Albert's actual business scale."
+      "notes": "Mattganzak's overnight build format. 70K views. Specific numbers sell it."
     },
     {
-      "id": "day2-ai-first-sale",
-      "title": "Day 2 - AI Made Its First Sale",
-      "status": "ready",
-      "competitor_style": "@buildwithcody — 590K views",
+      "id": "competitor-research-5min",
+      "title": "Spy on your competitors' content in 5 minutes with AI",
+      "status": "draft",
+      "competitor_style": "@dubibuilds — 57K views",
       "hooks": [
-        "The AI just closed a $25K deal and I had no idea until I checked my email",
-        "Day 2 update: AI is better at sales than I am",
-        "I woke up to a signed contract that AI negotiated without me"
+        "I can tell you exactly what content your competitor posted this week, what got the most engagement, and what hooks they used. In 5 minutes.",
+        "Stop guessing what content to make. Let AI analyze your competitors and tell you what actually works.",
+        "Every week my AI sends me a report on exactly what my competitors are doing. Takes 5 minutes to set up. Never miss a move again."
       ],
       "screen_captions": [
-        "Day 2: AI closes $25K deal independently",
-        "First AI sale = biggest client win this month",
-        "Humans are officially obsolete in sales"
+        "SPY ON COMPETITORS",
+        "5 MINUTE SETUP",
+        "WEEKLY AUTO-REPORT"
       ],
-      "full_script": "[SHOW: Email screenshot showing signed $25K contract] \"I literally woke up to this email. A signed $25K contract for a 6-month AI implementation project. The AI negotiated this entire deal while I was sleeping.\" [SHOW: Email thread showing AI's negotiation strategy] \"Look at this email thread. The AI identified pain points, proposed solutions, handled pricing objections, and closed the deal. This is my biggest client win this month.\" [SHOW: AI conversation showing decision-making process] \"But here's where it gets weird - the AI also made a mistake. It promised a deliverable in 3 weeks that usually takes me 6. So now I have to figure out how to actually deliver on that promise.\" [SHOW: Text overlay: \"Day 3 tomorrow - will the AI handle this mistake?\"] \"The AI is winning at sales but it doesn't understand operational constraints. Tomorrow we'll see if it can fix its own mistake. This experiment is getting intense.\"",
+      "full_script": "Every week my AI sends me a report on exactly what my competitors are doing. What they posted, what got engagement, what hooks they used, what flopped. And it takes zero effort because it runs automatically.\n\n[SHOW: The actual weekly report on screen — competitor names, posts, engagement numbers]\n\nHere's how to set this up. First, make a list of 5 to 10 competitors in your niche. Just their Instagram handles.\n\n[SHOW: Simple list of competitor handles]\n\nSecond, connect an Instagram scraping API. I use one that costs basically nothing. It pulls their latest posts, reels, engagement numbers, captions — everything.\n\n[SHOW: API response with real data]\n\nThird, tell your AI to analyze the data every Sunday night. Find the top 3 posts by engagement. Pull out the hooks they used. Identify patterns — what topics are getting traction, what format works best, what time they're posting.\n\n[SHOW: Analysis output — top hooks, best formats, trending topics]\n\nEvery Monday morning I wake up to a message that says — here are your competitors' best posts this week, here are the hooks that worked, and here are 5 content ideas based on what's trending in your niche.\n\n[SHOW: Monday morning Telegram message with the full brief]\n\nI used to spend 2 hours every week manually scrolling through competitors' profiles taking screenshots. Now it happens while I sleep. This is the exact system that Jason Cooperson describes for content research — but fully automated.\n\nWant me to show you the exact setup? Follow and I'll break it down step by step.",
       "platform": "IG",
-      "duration_estimate": "65 seconds",
-      "notes": "$25K deal size is realistic for Albert's AI consulting business."
+      "notes": "Jason Cooperson's content research system as a tutorial. Actionable + saves time."
     },
     {
-      "id": "day3-ai-found-customers",
-      "title": "Day 3 - AI Found Customers I Never Would Have",
-      "status": "ready",
-      "competitor_style": "@buildwithcody — 455K views",
+      "id": "ai-client-onboarding",
+      "title": "Client onboarding in 10 minutes instead of 3 hours",
+      "status": "draft",
+      "competitor_style": "@matthewberman_ai — 324K views",
       "hooks": [
-        "The AI just found a customer segment I never even thought about targeting",
-        "Day 3: AI is literally outsmarting my business strategy",
-        "I've been running my business wrong this whole time"
+        "New client signs up. 10 minutes later, everything is set up. Welcome email, project board, kickoff call scheduled. All automatic.",
+        "I used to spend 3 hours onboarding each new client. Now it takes 10 minutes because AI handles everything.",
+        "The fastest way to impress a new client is speed. My AI onboards them in 10 minutes. Here's how."
       ],
       "screen_captions": [
-        "Day 3: AI discovers new customer segment",
-        "AI strategy > human intuition",
-        "Machine learning beats business experience"
+        "10 MIN ONBOARDING",
+        "FULLY AUTOMATED",
+        "IMPRESS NEW CLIENTS"
       ],
-      "full_script": "[SHOW: Analytics showing new traffic source] \"The AI analyzed my business data and started targeting small accounting firms for AI automation. I've never even considered accountants as customers.\" [SHOW: AI-generated marketing campaign for accountants] \"It created an entire marketing campaign focused on automating their bookkeeping workflows. Three accounting firms have already booked discovery calls.\" [SHOW: Revenue breakdown showing 30% increase] \"And here's the crazy part - this new segment could increase my revenue by 30%. I've been focusing on tech companies for three years, but the AI found better customers in three days.\" [SHOW: Text overlay: \"Sometimes you're too close to see the obvious\"] \"This is humbling, bro. I thought I knew my market, but the AI looked at the data without bias and found opportunities I missed. Sometimes being too close to your business blinds you to the obvious.\"",
+      "full_script": "New client signs up. Within 10 minutes — welcome email sent, project board created, kickoff call scheduled, questionnaire delivered. All automatic. Zero work from me.\n\n[SHOW: Timeline graphic — Client signs → 10 min → everything done]\n\nHere's how I set this up. When a new client pays, my AI gets triggered. First thing it does — sends a personalized welcome email. Not a template. It uses the client's name, their business type, and references the specific problems we discussed on the sales call.\n\n[SHOW: Actual welcome email — personalized, professional]\n\nSecond, it creates a project board in Asana. Pre-loaded with every task for the first 30 days. Week 1 tasks, week 2 tasks, milestones, deadlines. All customized based on which service package they bought.\n\n[SHOW: Asana board with tasks already populated]\n\nThird, it checks my calendar, finds the first available 30-minute slot, and sends the client a booking link for the kickoff call. No back and forth. No 'when works for you' emails.\n\n[SHOW: Calendar booking link being generated and sent]\n\nFourth, it sends a quick questionnaire to gather the info we need before the kickoff. Login credentials, brand guidelines, current tools they use.\n\n[SHOW: Questionnaire form]\n\nThe client's experience — they pay, and within 10 minutes they've gotten a welcome email, a project roadmap, a scheduled call, and a questionnaire. They feel like they hired a team of 5 people. It's actually one person and an AI.\n\nFirst impressions matter. This is how you make clients think they made the best decision of their life.",
       "platform": "IG",
-      "duration_estimate": "60 seconds",
-      "notes": "Accounting firms are a realistic untapped market for Norwegian AI consulting."
+      "notes": "From Albert's agency list (#8 Client Onboarding). Matthew Berman's 'AI doing real work' style."
     },
     {
-      "id": "albert-origin-story",
-      "title": "Albert's Origin Story - 18 and Running an AI Company",
-      "status": "ready",
-      "competitor_style": "@simonbeard — 340K views",
+      "id": "scrape-leads-free",
+      "title": "How I find 100 qualified leads in 10 minutes for free",
+      "status": "draft",
+      "competitor_style": "@noevarner.ai — 170K views",
       "hooks": [
-        "I'm 18 and I run an AI company in Norway. Here's the 60-second story.",
-        "From failing high school to 6-figure AI business in 2 years",
-        "They said I was too young. Now I'm their competitor."
+        "Finding leads is not hard. Here's how I get 100 qualified leads in 10 minutes without paying for a database.",
+        "Stop buying lead lists. Your AI can find better leads for free. Let me show you.",
+        "I just found 100 business owners who need AI automation. Took me 10 minutes. Cost me nothing. Here's how."
       ],
       "screen_captions": [
-        "18-year-old CEO reveals his AI journey",
-        "From zero to AI expert in 24 months",
-        "Age is just a number in tech"
+        "100 LEADS. 10 MINUTES.",
+        "FREE LEAD GENERATION",
+        "STOP BUYING LISTS"
       ],
-      "full_script": "[SHOW: Photo of Albert at 16] \"Two years ago I was a 16-year-old in Norway who barely passed his classes. I was obsessed with technology but had no direction.\" [SHOW: Screenshot of first AI experiment] \"Then ChatGPT launched and I spent every waking hour learning about AI. While my friends were partying, I was building chatbots and reading research papers.\" [SHOW: First client project screenshot] \"I landed my first client at 17 - a local business that needed help with customer service automation. 5,000 kroner for something that took me three days.\" [SHOW: Current business dashboard showing revenue] \"Fast forward to today - my AI consulting business serves clients across Europe. Last month we did over 400,000 kroner in revenue. And yeah, I still live with my parents.\" [SHOW: Text overlay: \"What's stopping you from starting?\"] \"The best part? I never went to university. I learned everything from YouTube, Twitter, and actually building stuff. If an 18-year-old Norwegian kid can do this, what's your excuse?\"",
+      "full_script": "I just found 100 business owners who need AI automation in the next 10 minutes. Didn't pay for a lead database. Didn't use LinkedIn Sales Navigator. Just my AI and a simple trick.\n\n[SHOW: Terminal/screen with the AI running]\n\nHere's the method. Google Maps has every local business listed with their website, phone number, and often their email. My AI scrapes a specific type of business in a specific area.\n\nToday I searched for marketing agencies in Oslo. Got 200 results in about 3 minutes.\n\n[SHOW: Google Maps results for 'marketing agencies Oslo']\n\nBut here's where it gets good. My AI then visits each website and checks — do they mention AI anywhere? Do they have a chatbot? Are they still using manual processes that are obvious from their site?\n\nThe ones that don't mention AI at all — those are the leads. Because they clearly haven't adopted it yet, which means they need help.\n\n[SHOW: Spreadsheet with leads — business name, website, email, 'AI readiness score']\n\nOut of 200 agencies, 147 had zero AI presence on their site. Those are warm leads. They're already in a competitive market, they know they need to modernize, they just haven't found the right person to help them.\n\nI filtered for the ones with more than 10 employees — that means they have budget. That gave me 100 qualified leads with emails and phone numbers. Total cost — zero. Total time — 10 minutes.\n\nThe leads are only valuable if you follow up. So my AI also drafts a personalized outreach message for each one based on what their website says. That's a topic for another video.",
       "platform": "IG",
-      "duration_estimate": "70 seconds",
-      "notes": "Pin this to profile. 400K NOK = ~$36K USD, realistic for Albert's business."
+      "notes": "Lead gen tutorial. Noe Varner actionable style. Directly useful for anyone selling services."
     },
     {
-      "id": "best-failure-story",
-      "title": "The Best Failure Story",
-      "status": "ready",
-      "competitor_style": "@simonbeard — 410K views",
+      "id": "started-at-17-failed",
+      "title": "I failed at my first business at 17. Best thing that happened to me.",
+      "status": "draft",
+      "competitor_style": "@simonbeard — 67K views (credibility intro)",
       "hooks": [
-        "I failed at my first business at 17. Best thing that ever happened to me.",
-        "My biggest failure taught me everything about business",
-        "Failing at 17 made me a better entrepreneur at 18"
+        "I started my first company at 17. Shower filters. Selling to Sweden. It completely failed. And it was the best thing that ever happened to me.",
+        "My first business failed in 6 months. I was 17 and I thought I was done. Turns out that failure built everything I have now.",
+        "At 17 I tried to sell shower filters to Sweden. Yes, really. Here's what that failure taught me about building a real business."
       ],
       "screen_captions": [
-        "Failure at 17 = Success at 18",
-        "Best lessons come from worst failures",
-        "Why failing young is actually good"
+        "FAILED AT 17",
+        "SHOWER FILTERS TO SWEDEN 😂",
+        "BEST FAILURE EVER"
       ],
-      "full_script": "[SHOW: Screenshot of failed app with 12 downloads] \"This was my first business - a productivity app for students. I spent 8 months building it. Total downloads? 12. And 3 of those were my mom testing it.\" [SHOW: Bank account showing -2,000 kroner] \"I spent all my savings on app store fees, design software, and marketing that didn't work. I was broke and honestly felt like a complete failure.\" [SHOW: Lessons learned list] \"But that failure taught me three things I never learned in school: validate your idea before building, understand your customers, and marketing is harder than coding.\" [SHOW: Current business success metrics] \"So when I started my AI consulting business, I talked to 50 potential customers before writing a single line of code. I understood their problems first.\" [SHOW: Text overlay: \"Fail fast, learn faster\"] \"Failing at 17 was the best education I ever got. It cost me 2,000 kroner but saved me years of future mistakes. Sometimes you need to fall to learn how to fly.\"",
+      "full_script": "I started my first company at 17. Shower filters. Selling to Sweden. And it completely failed.\n\nI spent weeks making the website look perfect. I designed the packaging. I set up the supply chain. I was so proud of this product. There was just one tiny problem.\n\n[SHOW: Old Noropti website or product photos]\n\nI forgot to check if anyone actually wanted to buy it. Classic. I was so focused on making everything look professional that I never talked to a single customer first.\n\nSix months in, barely any sales, burning money on inventory. I had to shut it down.\n\nBut here's what that failure taught me. Three things.\n\n[SHOW: '3 LESSONS' text on screen]\n\nOne. Speed beats perfection. I spent weeks on a website that nobody visited. Should've spent that time talking to customers. The ugly landing page that's live beats the beautiful one that's still in Figma.\n\nTwo. Solve a real problem first. Don't fall in love with your product. Fall in love with the problem. If I had talked to 10 people first, I would've known the demand wasn't there.\n\nThree. Leverage. I was doing everything manually. Shipping, customer support, marketing. One person, 16 hours a day. Then I discovered AI automation. And I thought — wait, I can build this for other businesses and charge them for it.\n\n[SHOW: Current AI consulting business — dashboard, clients, revenue]\n\nThat's exactly what I did. I'm 18 now. I run an AI automation consulting company in Norway. Real clients. Growing fast. And every single lesson came from that first failure.\n\nIf you're young and thinking about starting something — just start. The lessons are worth more than the business.",
       "platform": "IG",
-      "duration_estimate": "65 seconds",
-      "notes": "2,000 NOK loss is realistic for teen entrepreneur. Validates Albert's journey."
+      "notes": "Albert's real story. Simon Beard credibility style. Pin this."
     },
     {
-      "id": "naval-time-vs-ownership",
-      "title": "Naval's 'How to Get Rich' - The Time vs Ownership Trade",
-      "status": "ready",
-      "competitor_style": "@buildwithcody — 520K views",
+      "id": "3-mistakes-ai-agents",
+      "title": "3 mistakes everyone makes building AI agents",
+      "status": "draft",
+      "competitor_style": "@baroobi — 61K views + @angus.sewell — 22K views",
       "hooks": [
-        "Naval's 'How to Get Rich' just changed how I think about business",
-        "This one concept from Naval made me restructure my entire company",
-        "Why trading time for money is keeping you poor"
+        "Everyone's building AI agents right now. And almost everyone is making the same three mistakes. Here's how to avoid them.",
+        "I've set up AI agents for 10 plus clients. These are the three mistakes I see every single time.",
+        "Your AI agent sucks and it's probably because of one of these three things. Let me save you a week of debugging."
       ],
       "screen_captions": [
-        "Time vs Ownership: Naval's wealth formula",
-        "Stop trading time for money",
-        "Leverage is everything"
+        "3 MISTAKES ❌",
+        "WHY YOUR AI SUCKS",
+        "FIX THESE NOW"
       ],
-      "full_script": "[SHOW: Naval's tweet about wealth creation] \"Naval Ravikant says 'You will not get rich renting out your time.' This hit me hard because I was literally doing consulting calls 8 hours a day.\" [SHOW: Comparison of hourly work vs scalable business] \"He breaks it down: you can't get rich trading time for money because time doesn't scale. But ownership of businesses, assets, and intellectual property does scale.\" [SHOW: AI automation example] \"So I pivoted. Instead of just doing AI consulting, I started building AI systems that work without me. Now I have recurring revenue from automation tools I built once.\" [SHOW: Revenue dashboard showing passive income growth] \"Last month, 60% of my revenue came from systems I'm not actively managing. That's the difference between renting your time and owning assets.\" [SHOW: Text overlay: \"Build once, profit forever\"] \"Naval's lesson: seek roles with leverage - where your decisions can impact thousands of people. That's how you escape the time-for-money trap.\"",
+      "full_script": "I've set up AI agents for over 10 clients. And almost every single one makes the same three mistakes. Let me save you a week of debugging.\n\nMistake number one. No guardrails. People give their AI agent full access to everything and say go. That's how you get an AI sending emails to your biggest client at 3am saying something completely insane. Always set limits. What it can send without approval, what needs your sign-off, what it should never touch.\n\n[SHOW: Example config — approved actions vs needs-approval vs blocked]\n\nMistake number two. No memory system. If your AI doesn't remember what happened yesterday, it's going to repeat the same mistakes every single day. You need a memory file that it reads every morning. Who are the clients. What's the current status. What happened yesterday. Without this, your AI has amnesia.\n\n[SHOW: Example MEMORY.md file — client list, current tasks, yesterday's log]\n\nMistake number three. Too many tasks at once. People try to automate everything on day one. Email, CRM, ads, content, scheduling, invoicing — all at the same time. It breaks. Every time. Start with one automation. Get it working perfectly. Then add the next one.\n\n[SHOW: Week 1: email only → Week 2: add CRM → Week 3: add monitoring → etc.]\n\nThe right approach is boring. One thing at a time. Test it. Fix the edge cases. Then scale. The people who do this have agents that actually work. The people who try to do everything at once have agents that are broken by day three.\n\nWhich mistake are you making? Drop it in the comments.",
       "platform": "IG",
-      "duration_estimate": "60 seconds",
-      "notes": "Naval's wealth tweets are famous. Fits Albert's transition from consulting to products."
+      "notes": "Actionable debugging advice. Combines baroobi's rant energy with actual fixes."
     },
     {
-      "id": "hormozi-100m-leads",
-      "title": "Hormozi's $100M Leads Framework",
-      "status": "ready",
-      "competitor_style": "@buildwithcody — 395K views",
+      "id": "chatgpt-wrong",
+      "title": "You're using ChatGPT completely wrong",
+      "status": "draft",
+      "competitor_style": "@dubibuilds — 12K views + @angus.sewell — 109K views",
       "hooks": [
-        "Hormozi's $100M Leads framework literally doubled my client pipeline",
-        "This one lead generation strategy changed everything",
-        "Alex Hormozi just solved my biggest business problem"
+        "You're using ChatGPT like a Google search and that's why your results suck. Here's how the pros actually use it.",
+        "95 percent of people use AI wrong. They type one sentence and expect magic. Here's what to do instead.",
+        "The difference between getting garbage from AI and getting gold is three prompting techniques. Takes 60 seconds to learn."
       ],
       "screen_captions": [
-        "$100M Leads: The framework that works",
-        "Hormozi's lead magnet strategy revealed",
-        "From zero leads to pipeline full"
+        "YOU'RE DOING IT WRONG",
+        "STOP GOOGLING WITH AI",
+        "3 PRO TECHNIQUES"
       ],
-      "full_script": "[SHOW: Alex Hormozi's book cover] \"Alex Hormozi's '$100M Leads' taught me that I was thinking about lead generation completely backwards.\" [SHOW: Traditional lead gen vs Hormozi's method] \"I was trying to convince people to hire me. Hormozi says instead, give away your best stuff for free first, then they'll want to buy more.\" [SHOW: Free AI audit template] \"So I created a free AI audit template that shows businesses exactly where AI can save them money. No sales pitch, just pure value.\" [SHOW: Calendar full of qualified prospects] \"Result? My calendar is now full of pre-qualified prospects who already understand the value of AI and want to work with me.\" [SHOW: Text overlay: \"Lead with value, not with sales\"] \"Hormozi's lesson: the best lead magnets solve a painful problem your ideal customer has right now. Give away the strategy, sell the implementation.\"",
+      "full_script": "95 percent of people type something like 'write me a marketing email' into ChatGPT and then complain that AI is overhyped. That's like buying a Ferrari and only driving it in first gear.\n\nHere are three techniques that will completely change your results.\n\n[SHOW: ChatGPT interface]\n\nTechnique one. Give it a role. Don't just say 'write me an email.' Say 'you are a direct response copywriter with 15 years of experience selling B2B services. Write me a cold email to a marketing agency owner who doesn't know what AI agents are.' Night and day difference.\n\n[SHOW: Side by side — generic prompt result vs role-based prompt result]\n\nTechnique two. Give it context, then ask. Before you ask for the output, paste in your existing content, your brand voice, examples of emails you like. The more context it has, the less generic the output. I paste in my previous best emails and say 'match this tone and style.'\n\n[SHOW: Prompt with context pasted in → much better output]\n\nTechnique three. Iterate, don't accept. Never use the first response. Say 'make it shorter.' 'Make the hook more specific.' 'Remove the corporate language.' 'Add a real number.' Each iteration gets 10 times better.\n\n[SHOW: V1 → V2 → V3 of the same email, each one clearly better]\n\nThe people getting insane results from AI aren't smarter than you. They're just better at asking. These three techniques take 60 seconds to apply and they'll transform every single interaction you have with AI.",
       "platform": "IG",
-      "duration_estimate": "55 seconds",
-      "notes": "$100M Leads is real book. AI audit template is practical lead magnet for Albert."
+      "notes": "Universal value — everyone uses ChatGPT. Angus's 'fired up about AI tools' energy."
     },
     {
-      "id": "ai-news-weekly-roundup",
-      "title": "Everything That Happened in AI This Week",
-      "status": "ready",
-      "competitor_style": "@dubibuilds — 445K views",
+      "id": "morning-routine-ai-ceo",
+      "title": "My morning as an 18-year-old AI CEO",
+      "status": "draft",
+      "competitor_style": "@albert.olgaard — 287K followers (personal brand)",
       "hooks": [
-        "This week in AI was absolutely insane - here's everything you missed",
-        "5 AI developments this week that will change everything",
-        "AI news moves so fast, here's your weekly recap"
+        "6am. My AI already sent me a briefing of everything that happened overnight. Here's what my morning looks like.",
+        "I'm 18 and I run an AI company. My morning routine is different from what you'd expect.",
+        "My AI starts working at midnight. By the time I wake up, half my day is already done. Let me show you."
       ],
       "screen_captions": [
-        "This week in AI: Feb 17-22, 2026",
-        "5 game-changing AI updates",
-        "AI news roundup"
+        "18-YEAR-OLD AI CEO",
+        "MY AI STARTS AT MIDNIGHT",
+        "MORNING ROUTINE 🌅"
       ],
-      "full_script": "[SHOW: Anthropic revenue growth chart] \"First, Anthropic is about to surpass OpenAI in revenue. They're growing 10x per year while OpenAI is only doing 3.4x. That's huge.\" [SHOW: Apple Intelligence Black Hat research] \"Second, researchers at Black Hat exposed privacy issues with Apple Intelligence - it's sending more data to servers than Apple admits.\" [SHOW: Chrome extension malware headlines] \"Third, over 300 Chrome extensions got caught stealing user data. 37 million people affected. Check your browser extensions right now.\" [SHOW: New AI tools launch announcements] \"Fourth, three new AI coding tools launched this week that nobody's talking about but could replace GitHub Copilot.\" [SHOW: AI job screening Forbes article] \"And finally, 65% of employers will use AI to reject job applications in 2025. The job market just got way more complicated.\" [SHOW: Text overlay: \"Follow for weekly AI updates\"] \"AI moves fast. Really fast. That's why I do these weekly roundups so you don't miss the important stuff.\"",
+      "full_script": "My AI starts working at midnight. By the time I wake up, half my day is already done.\n\n[SHOW: Phone screen — 6am, Telegram notifications from AI]\n\n6am. First thing I check — the overnight report from my AI. It tells me what happened while I was sleeping. Last night, it scraped 200 leads for a client project, responded to 3 email inquiries, and flagged one ad campaign that was overspending.\n\n[SHOW: Actual overnight summary message]\n\n6:15. Coffee. I review the leads it found. Most are good. I approve 180 out of 200. The other 20 were restaurants, which is outside our target market. Takes me 5 minutes.\n\n[SHOW: Quick scroll through lead list, approving/rejecting]\n\n6:30. I check the content brief my AI prepared. It analyzed my competitors' posts from yesterday, found 3 hooks that performed well, and drafted 2 script ideas based on trending topics. I pick one and start filming.\n\n[SHOW: Content brief on screen — competitor hooks, script draft]\n\n7:00. I film one reel. 90 seconds. The script was already written. I just read it naturally and add my own spin.\n\n7:15. Gym. By 8:30 I'm at my desk for the first real meeting. But the thing is — three hours of work was already done before I even opened my laptop.\n\n[SHOW: Summary card — 200 leads, 3 emails, 1 ad fix, 1 content brief, 1 reel filmed — before 8am]\n\nPeople ask me how I run a business at 18 without a team. This is how. My team is an AI that works while I sleep.",
       "platform": "IG",
-      "duration_estimate": "65 seconds",
-      "notes": "Repeatable weekly format. Use current week's real AI news. All stats mentioned are real."
-    },
-    {
-      "id": "hidden-ai-tools",
-      "title": "5 AI Tools Nobody's Talking About",
-      "status": "ready",
-      "competitor_style": "@dubibuilds — 380K views",
-      "hooks": [
-        "5 AI tools that just launched that nobody is talking about",
-        "These AI tools are flying under the radar but they're game-changers",
-        "While everyone talks about ChatGPT, these tools are doing the real work"
-      ],
-      "screen_captions": [
-        "5 hidden AI gems you need to know",
-        "Under-the-radar AI tools",
-        "Secret weapons for productivity"
-      ],
-      "full_script": "[SHOW: Cursor IDE screenshot] \"First, Cursor - it's like VS Code but the AI actually understands your entire codebase. It can refactor thousands of lines of code in seconds.\" [SHOW: Perplexity Pro search interface] \"Second, Perplexity Pro just added real-time web search. It's basically Google but it gives you AI-generated answers with sources. Game changer for research.\" [SHOW: Claude Projects dashboard] \"Third, Claude Projects lets you create persistent AI workspaces with memory. I use it to manage all my client projects with context that never gets lost.\" [SHOW: Replit Agent coding interface] \"Fourth, Replit Agent can build entire web apps from a single prompt. I watched it create a full e-commerce site in 20 minutes.\" [SHOW: NotebookLM audio overview] \"Finally, NotebookLM creates AI podcast episodes from your documents. Upload your business plan, get a 20-minute podcast discussing it. Mind-blown.\" [SHOW: Text overlay: \"Which one will you try first?\"] \"These tools are changing how I work every day. While everyone fights over ChatGPT vs Claude, smart people are using these.\"",
-      "platform": "IG",
-      "duration_estimate": "70 seconds",
-      "notes": "All tools mentioned are real. Cursor, Perplexity Pro, Claude Projects, Replit Agent, NotebookLM."
-    },
-    {
-      "id": "us-china-ai-war",
-      "title": "US vs China AI War Gets Real",
-      "status": "ready",
-      "competitor_style": "@dubibuilds — 520K views",
-      "hooks": [
-        "The AI war between US and China just got real - this week's moves",
-        "China just made a move that has Silicon Valley scared",
-        "The AI cold war is heating up and it affects all of us"
-      ],
-      "screen_captions": [
-        "US vs China: AI Cold War escalates",
-        "DeepSeek threatens US AI dominance",
-        "The chip war meets AI competition"
-      ],
-      "full_script": "[SHOW: DeepSeek AI model performance charts] \"China just released DeepSeek, an AI model that performs close to GPT-4 but costs 95% less to run. Silicon Valley is panicking.\" [SHOW: US chip export restrictions headlines] \"The US responded by tightening chip export restrictions. No more advanced GPUs to China. But here's the problem - DeepSeek was built with older, cheaper chips.\" [SHOW: Stock market reaction to DeepSeek] \"Nvidia stock dropped 17% in one day because investors realized you don't need $40,000 GPUs to build competitive AI. The entire AI bubble might be overvalued.\" [SHOW: European AI companies caught in middle] \"And Europe is caught in the middle. We're dependent on both US chips and increasingly competitive Chinese AI models.\" [SHOW: Text overlay: \"What does this mean for startups?\"] \"For AI entrepreneurs like me, this is actually good news. Cheaper, more efficient AI models mean lower costs and more innovation. Competition drives progress.\"",
-      "platform": "IG",
-      "duration_estimate": "65 seconds",
-      "notes": "DeepSeek is real Chinese AI model. Nvidia stock reaction and chip restrictions are factual."
-    },
-    {
-      "id": "ai-agents-mistakes",
-      "title": "Everyone's Building AI Agents Wrong",
-      "status": "ready",
-      "competitor_style": "@baroobi — 445K views",
-      "hooks": [
-        "Everyone's building AI agents wrong - here's the 3 mistakes",
-        "You're doing AI automation backwards and it's costing you money",
-        "I've seen 100 AI agent projects fail. Here's why."
-      ],
-      "screen_captions": [
-        "3 AI agent mistakes everyone makes",
-        "Why 90% of AI automation fails",
-        "You're building AI agents wrong"
-      ],
-      "full_script": "[SHOW: Failed AI agent dashboard] \"I've consulted on over 100 AI agent projects. 90% of them fail, and it's always the same three mistakes.\" [SHOW: Complex workflow diagram] \"Mistake one - they try to automate everything at once. I saw a company try to build an AI agent that handled sales, support, and accounting. It sucked at all three.\" [SHOW: AI hallucination examples] \"Mistake two - no human oversight. AI agents hallucinate. A client's AI agent sent a refund email to every customer because it misunderstood a complaint.\" [SHOW: Simple, focused AI workflow] \"Mistake three - not starting small. The best AI agents do one thing really well. My most successful client started with just email classification.\" [SHOW: Text overlay: \"Start small, scale smart\"] \"Here's the right way: pick one repetitive task, build an AI agent for just that, add human checkpoints, then scale. Don't try to replace humans - augment them.\"",
-      "platform": "IG",
-      "duration_estimate": "60 seconds",
-      "notes": "Based on Albert's real consulting experience. 100+ projects is realistic for his business."
-    },
-    {
-      "id": "chatgpt-search-engine-mistake",
-      "title": "You're Using ChatGPT Like a Search Engine",
-      "status": "ready",
-      "competitor_style": "@baroobi — 390K views",
-      "hooks": [
-        "You're using ChatGPT like a search engine. Stop.",
-        "This is why your ChatGPT results suck",
-        "You're wasting ChatGPT's potential and here's how to fix it"
-      ],
-      "screen_captions": [
-        "Stop using ChatGPT like Google",
-        "You're prompting wrong",
-        "ChatGPT isn't a search engine"
-      ],
-      "full_script": "[SHOW: Bad ChatGPT prompt example] \"I see people asking ChatGPT 'What's the best AI tool?' That's like asking a creative writing assistant for Wikipedia facts.\" [SHOW: Good ChatGPT conversation example] \"ChatGPT isn't a search engine - it's a reasoning engine. Instead of asking 'What's the best AI tool?' ask 'I need to automate email responses for a small e-commerce business. What should I consider?'\" [SHOW: Comparison of search vs reasoning prompts] \"See the difference? One is looking for information, the other is asking for analysis and reasoning based on your specific situation.\" [SHOW: Custom GPT with specific context] \"Even better - create custom GPTs with your business context. I have one trained on my consulting methodology that gives personalized advice to my clients.\" [SHOW: Text overlay: \"Context is everything\"] \"The magic happens when you give ChatGPT context about your specific situation. It's not Google - it's like having a really smart consultant who can reason through your problems.\"",
-      "platform": "IG",
-      "duration_estimate": "55 seconds",
-      "notes": "Common mistake Albert sees in consulting. Good educational content angle."
-    },
-    {
-      "id": "mac-mini-ai-reality-check",
-      "title": "Mac Mini AI Agent Setup Reality Check",
-      "status": "ready",
-      "competitor_style": "@baroobi — 355K views",
-      "hooks": [
-        "People are spending $1000 on Mac Minis for AI agents. Here's what they're not telling you.",
-        "The Mac Mini AI agent trend is mostly marketing hype",
-        "Before you buy a Mac Mini for AI, watch this"
-      ],
-      "screen_captions": [
-        "Mac Mini AI agents: Reality vs hype",
-        "$1000 mistake most people make",
-        "The truth about local AI hardware"
-      ],
-      "full_script": "[SHOW: Mac Mini M4 product page] \"Everyone's hyping Mac Minis for running AI agents locally. $1000 for an M4 Mac Mini sounds like a great deal until you realize what you actually get.\" [SHOW: AI model performance comparison] \"The M4 chip can run smaller models like Llama 3.1 8B, but it's still 10x slower than cloud APIs and the quality isn't close to GPT-4 or Claude.\" [SHOW: Cost comparison over time] \"Here's the math - $1000 upfront plus electricity costs about $15/month. OpenAI API for the same workload? Maybe $50/month but with way better results.\" [SHOW: Cloud vs local AI pros/cons] \"Local AI makes sense for privacy-sensitive data or if you're processing massive volumes. But for most businesses? You're better off with cloud APIs.\" [SHOW: Text overlay: \"Buy for the right reasons\"] \"Don't buy a Mac Mini because some YouTuber said it's the future. Buy it because your specific use case requires local processing. The cloud is still cheaper and better for most AI work.\"",
-      "platform": "IG",
-      "duration_estimate": "60 seconds",
-      "notes": "Counter-narrative to Mac Mini hype. Albert uses cloud APIs for his consulting business."
+      "notes": "Personal brand content. Shows the lifestyle + the system. Albert.olgaard style."
     }
-  ],
-  "competitor_analysis": {
-    "@albert.olgaard": {
-      "followers": "287K",
-      "bio": "Building AI companies",
-      "business": "buildmyagent.io",
-      "style": "Norwegian AI entrepreneur, DM 1% to work with me",
-      "content_themes": ["AI automation business", "Agency model", "Building AI companies"],
-      "incorporation_notes": "Added Norwegian entrepreneur angle to Albert's origin story. Referenced competing AI automation businesses."
-    },
-    "@buildwithcody": {
-      "proven_formats": ["Day X experiment series", "Sounds scammy book reviews"],
-      "avg_views": "231K-680K",
-      "style": "Experiment documentation, honest failures"
-    },
-    "@baroobi": {
-      "proven_formats": ["React to controversy", "You're cooked security", "Everyone's doing X wrong"],
-      "avg_views": "248K-922K", 
-      "style": "Security focus, urgent warnings, technical breakdowns"
-    },
-    "@simonbeard": {
-      "proven_formats": ["Credibility stories", "Business insights"],
-      "avg_views": "44K-410K",
-      "style": "High-credibility business advice, vulnerability"
-    },
-    "@dubibuilds": {
-      "proven_formats": ["News dumps", "Hidden tools"],
-      "avg_views": "50K-520K",
-      "style": "Rapid-fire news, under-radar tools"
-    }
-  },
-  "real_sources_used": {
-    "elevenlabs_lawsuit": "The Voice Realm lawsuit coverage",
-    "ai_job_screening": "Forbes 65% stat, University of Washington study, Gallup Fortune 500 survey",
-    "openai_breach": "Forbes and Decrypt Mixpanel incident coverage",
-    "chrome_extensions": "SecurityWeek 300+ extensions, 37M downloads report",
-    "apple_intelligence": "CyberScoop Black Hat 2025 Lumia Security research",
-    "anthropic_revenue": "Epoch.ai revenue comparison data",
-    "deepseek_nvidia": "Real Chinese AI model and stock market reaction",
-    "all_tools_mentioned": "Cursor, Perplexity Pro, Claude Projects, Replit Agent, NotebookLM are real tools"
-  }
+  ]
 }
