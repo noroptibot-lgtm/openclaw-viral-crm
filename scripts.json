@@ -1,0 +1,144 @@
+{
+  "version": "v3",
+  "updated": "2026-02-22",
+  "stats": {
+    "total_scripts": 7,
+    "type": "Competitor-Based",
+    "source": "18-year-old Norwegian AI CEO perspective"
+  },
+  "scripts": [
+    {
+      "id": "day1-ai-business",
+      "title": "Day 1: Can an 18-year-old run a business with AI?",
+      "status": "draft",
+      "competitor_style": "@buildwithcody (555k views)",
+      "hooks": [
+        "Everyone keeps saying AI agents can run businesses. I'm 18. I have real clients. Let's actually test it.",
+        "I'm 18, running a real business, and giving AI full control for a week. This could go very wrong.",
+        "Testing if an AI agent can run my Norwegian consulting business better than I can. Day 1 results..."
+      ],
+      "screen_captions": [
+        "CAN AI RUN MY BUSINESS?",
+        "18-YEAR-OLD VS AI",
+        "NORWAY AI EXPERIMENT"
+      ],
+      "full_script": "Everyone keeps saying AI agents can run businesses. I'm 18. I have actual clients paying me money. So let's test it.\n\nHere's the plan. I'm giving my AI agent full control for one week. Client communication, lead generation, ad optimization, content research — everything.\n\nI run an AI consulting company in Norway. We automate businesses. So if anyone should be able to make this work, it's me. Right?\n\nHere's my setup. Mac Mini running 24/7. OpenClaw managing everything through Telegram. It's already connected to my CRM, my ad accounts, my email.\n\nDay one. I woke up to 14 notifications. It scraped 200 leads overnight, responded to 3 client emails, and flagged one ad campaign that was burning money.\n\nNot bad for sleeping 8 hours.\n\nBut here's the thing nobody talks about — it also sent one email that made zero sense. Like genuinely embarrassing. So I caught it, fixed it, moved on.\n\nThat's the reality. It's not perfect. But it's fast. Follow for day two — because this is about to get interesting.",
+      "platform": "IG",
+      "notes": "Authentic experiment format, Norwegian angle, real business credibility"
+    },
+    {
+      "id": "ai-ceo-walkthrough",
+      "title": "I automate Norwegian businesses with AI. Here's everything.",
+      "status": "draft",
+      "competitor_style": "@matthewberman (324k views)",
+      "hooks": [
+        "I run an AI automation company at 18. Not a side project. Real clients. Real money. Let me show you what it actually looks like.",
+        "18-year-old Norwegian running AI company. Here's the entire behind-the-scenes setup.",
+        "This is what a real AI automation business looks like when you're 18 and Norwegian."
+      ],
+      "screen_captions": [
+        "18-YEAR-OLD AI CEO",
+        "REAL AI BUSINESS",
+        "NORWAY AUTOMATION"
+      ],
+      "full_script": "I run an AI automation company at 18. Not a side project. Real clients. Real money. Let me show you what it actually looks like behind the scenes.\n\nThis is my Mac Mini. It runs 24/7. Right now it's managing 36 active sessions.\n\nI use it as a CRM. It tracks every lead, every client conversation, every follow-up. I use it for competitor research — it scrapes my competitors' content every week and tells me what's working.\n\nAd optimization. It monitors my clients' Meta Ad campaigns, flags underperformers, suggests changes. I used to do this manually. Took me 3 hours a day. Now it takes zero.\n\nContent pipeline. It researches trending topics, analyzes what hooks are getting views, and drafts scripts for me. Like this one — the research behind this video was done by my AI.\n\nBut the craziest part? Client onboarding. New client signs up, my AI sets up their entire automation stack, sends the welcome email, creates the project board, schedules the kickoff call.\n\nPeople ask me how I compete with agencies that have 20 employees. This is how.",
+      "platform": "IG",
+      "notes": "Technical walkthrough, age credibility, Norwegian market angle"
+    },
+    {
+      "id": "meta-ads-ai-60s",
+      "title": "Connect your Meta Ads to AI in 60 seconds",
+      "status": "ready",
+      "competitor_style": "@noevarner (256k views)",
+      "hooks": [
+        "Stop manually checking your ad campaigns. Here's how to connect them to AI in 60 seconds.",
+        "Your Meta Ads can monitor themselves. 60-second setup, zero manual checking.",
+        "Norwegian businesses waste hours checking ads. This AI setup takes 60 seconds."
+      ],
+      "screen_captions": [
+        "META ADS + AI",
+        "60 SECOND SETUP",
+        "AI MONITORS ADS"
+      ],
+      "full_script": "Stop manually checking your ad campaigns.\n\nGo to developers.facebook.com. Create an app. Give it ads_read and ads_management permissions. Copy your access token.\n\nDrop it into your AI agent. Ask it to connect to your ad account.\n\nNow here's the play. Tell it: 'Monitor all active campaigns. If CPA goes above target, pause the ad set and notify me.'\n\nThat's it. Your AI now watches your ads 24/7. It catches problems at 3am when you're sleeping.\n\nI do this for my clients. They used to pay someone to manually check dashboards. Now an AI does it better, faster, and it never misses a spike.\n\nYou're welcome. Follow for more.",
+      "platform": "IG",
+      "notes": "Ultra-tactical, quick value, Norwegian B2B angle"
+    },
+    {
+      "id": "ai-agents-norway-market",
+      "title": "The AI agent market is about to explode in Norway",
+      "status": "draft",
+      "competitor_style": "@dubibuilds (49k views)",
+      "hooks": [
+        "Every business in Norway spends 50 thousand kroner a month on tasks an AI agent can do for 500. And almost nobody here knows about it yet.",
+        "The Norwegian AI automation market is wide open. I'm 18 and already owning it.",
+        "US market is flooded with AI agencies. Norway is completely untapped. Here's the opportunity."
+      ],
+      "screen_captions": [
+        "AI AGENTS IN NORWAY",
+        "50K → 500 KRONER",
+        "MARKET OPPORTUNITY"
+      ],
+      "full_script": "Every business in Norway spends 50 thousand kroner a month on tasks an AI agent can do for 500 kroner. And almost nobody here knows about it yet.\n\nI'm not exaggerating. Customer service, bookkeeping follow-ups, lead qualification, appointment scheduling — Norwegian SMBs are doing all of this manually.\n\nI started an AI consulting company 6 months ago. I'm 18. And every single business owner I talk to has the same reaction: 'Wait, this exists?'\n\nYes. It exists. And it's not coming. It's here right now.\n\nHere's what's happening. The US market is already flooded with AI automation agencies. But Scandinavia? It's wide open. Norwegian businesses trust local providers. They want someone who speaks the language, understands the regulations, knows their tools.\n\nThat's the gap. And it won't last.\n\nIf you're in Norway and you run a business — or you want to start one — this is the wave. The ones who move now will own this market for the next 5 years.",
+      "platform": "IG",
+      "notes": "Market opportunity, Norwegian focus, local advantage angle"
+    },
+    {
+      "id": "started-at-17",
+      "title": "I built my first company at 17. Here's what I wish someone told me.",
+      "status": "draft",
+      "competitor_style": "@simonbeard (66k views)",
+      "hooks": [
+        "I started my first company at 17. Made every mistake possible. Here's what I actually learned.",
+        "17-year-old Norwegian entrepreneur. Failed first business. Here are the real lessons.",
+        "From shower filters in Sweden to AI automation in Norway. What I learned at 17."
+      ],
+      "screen_captions": [
+        "STARTED AT 17",
+        "EVERY MISTAKE",
+        "REAL LESSONS"
+      ],
+      "full_script": "I started my first company at 17. Shower filters. Selling to Sweden. Sounds random — because it was.\n\nI learned more in that one failed project than in my entire school career. Here's the three things.\n\nOne. Nobody cares about your product until you solve their actual problem. I was so focused on the product being cool that I forgot to ask — does anyone actually want this?\n\nTwo. Speed beats perfection. I spent weeks making the website look perfect. Should've spent that time talking to customers. The ugly landing page that's live beats the beautiful one that's still in Figma.\n\nThree. Leverage. I was doing everything manually. Customer support, shipping, marketing. One person, 16 hours a day. Then I discovered AI automation. And I realized — wait. I can build this for OTHER businesses and charge them for it.\n\nThat's how my consulting company was born. One failure turned into a real business.\n\nI'm 18 now. Running an AI automation agency. Real clients. Growing fast. And every single lesson came from that first 'failure.'\n\nIf you're young and thinking about starting something — just start. The lessons are worth more than the business.",
+      "platform": "IG",
+      "notes": "Personal story, Norwegian/Swedish market, age credibility, lessons learned"
+    },
+    {
+      "id": "ai-weekly-report",
+      "title": "My AI agent's weekly report is better than most employees",
+      "status": "filmed",
+      "competitor_style": "@mattganzak (96k views)",
+      "hooks": [
+        "Every Monday morning my AI sends me a report. Let me show you what's in it.",
+        "My AI agent gives me better weekly updates than any employee I've ever had.",
+        "18-year-old gets business reports from AI. Norwegian efficiency at its peak."
+      ],
+      "screen_captions": [
+        "AI WEEKLY REPORT",
+        "BETTER THAN EMPLOYEES",
+        "MONDAY MORNING GOLD"
+      ],
+      "full_script": "Every Monday morning my AI sends me a report. Let me show you what's actually in it.\n\nClient health scores. It monitors all active projects, flags anything that's behind schedule, and tells me who needs attention this week.\n\nRevenue tracking. How much came in, which clients paid, which invoices are outstanding. With a trend line so I can see if we're growing or stalling.\n\nCompetitor moves. It scraped my top 5 competitors this week. New website changes, new content, pricing updates. Stuff I'd never catch manually.\n\nContent performance. Which of my posts got traction, which hooks worked, which flopped. With suggestions for this week's content based on what's trending in my niche.\n\nAnd my favorite part — the 'one thing' recommendation. Based on all this data, it tells me: 'This week, focus on X. Here's why.'\n\nThis took me 6 hours to do manually every Sunday. Now it takes zero.\n\nI built this entire system for my consulting business. And honestly? It's better than any weekly standup I've ever had.",
+      "platform": "IG",
+      "notes": "Practical demonstration, AI-first business, Norwegian work efficiency"
+    },
+    {
+      "id": "ai-reality-check",
+      "title": "Reacting to what AI agents are actually doing right now",
+      "status": "draft",
+      "competitor_style": "@baroobi (693k views)",
+      "hooks": [
+        "Bro. I just watched an AI agent negotiate a discount with a supplier. Over email. Without the supplier knowing. What are we doing.",
+        "AI is negotiating deals, booking dates, managing calendars. Norwegian kid reacts to the chaos.",
+        "I build AI systems for businesses. Even I'm scared of what's happening right now."
+      ],
+      "screen_captions": [
+        "AI NEGOTIATING DEALS 😭",
+        "SUPPLIER HAD NO IDEA",
+        "WHAT ARE WE DOING"
+      ],
+      "full_script": "Bro. I just watched an AI agent negotiate a discount with a supplier. Over email. Without the supplier knowing.\n\nLike, the supplier responded with 'thanks for the professional communication.' Sir, you were talking to a robot.\n\nAnd this isn't even the craziest part. People are having AI agents book restaurants, manage their calendars, respond to their dating app messages — bro what?\n\nI run an AI company. I build these things for businesses. And even I'm sitting here like... we need to slow down and think about what we're actually building.\n\nBecause on one hand — this is insane. The productivity is unreal. My clients are saving 20, 30 hours a week.\n\nBut on the other hand... an AI is out here sweet-talking suppliers and none of them know. Where's the line?\n\nI don't have the answer. But I think we need to at least ask the question. Because this is moving faster than anyone expected.\n\nWhat do you think — should AI be allowed to communicate without disclosing it's AI? Drop your take in the comments.",
+      "platform": "IG",
+      "notes": "Viral reaction format, ethical questions, Norwegian perspective on AI ethics"
+    }
+  ]
+}
