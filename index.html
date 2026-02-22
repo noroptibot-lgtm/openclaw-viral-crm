@@ -3,455 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenClaw Content CRM - Competitor Scripts v3</title>
+    <title>Content CRM — Actionable Scripts v7</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background: #0a0a0a;
-            color: #ffffff;
-            font-family: 'Inter', sans-serif;
-            padding: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .header h1 {
-            color: #d4af37;
-            font-size: 2.2rem;
-            margin-bottom: 10px;
-        }
-        
-        .header .subtitle {
-            color: #888;
-            font-size: 1.1rem;
-            margin-bottom: 10px;
-        }
-        
-        .stats {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 0.9rem;
-            color: #d4af37;
-            background: #1a1a1a;
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #333;
-        }
-        
-        .board {
-            display: flex;
-            gap: 20px;
-            overflow-x: auto;
-            padding: 20px 0;
-        }
-        
-        .column {
-            min-width: 350px;
-            background: #1a1a1a;
-            border-radius: 12px;
-            padding: 20px;
-            border: 1px solid #333;
-            min-height: 500px;
-        }
-        
-        .column-header {
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-bottom: 20px;
-            color: #d4af37;
-            text-align: center;
-            padding: 10px;
-            background: #2a2a2a;
-            border-radius: 6px;
-            position: relative;
-        }
-        
-        .column-count {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: #d4af37;
-            color: #000;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 0.8rem;
-            font-weight: bold;
-        }
-        
-        .card {
-            background: #2a2a2a;
-            border-radius: 8px;
-            padding: 18px;
-            margin-bottom: 15px;
-            cursor: pointer;
-            border: 1px solid #333;
-            transition: all 0.2s;
-        }
-        
-        .card:hover {
-            transform: translateY(-2px);
-            border-color: #d4af37;
-            box-shadow: 0 4px 20px rgba(212, 175, 55, 0.1);
-        }
-        
-        .card.expanded {
-            border-color: #d4af37;
-            background: #333;
-            box-shadow: 0 8px 30px rgba(212, 175, 55, 0.2);
-        }
-        
-        .card-title {
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #ffffff;
-            font-size: 1.05rem;
-        }
-        
-        .card-competitor {
-            color: #d4af37;
-            font-size: 0.85rem;
-            font-style: italic;
-            margin-bottom: 12px;
-            font-weight: 500;
-        }
-        
-        .card-hooks {
-            margin-bottom: 15px;
-        }
-        
-        .card-hook {
-            color: #cccccc;
-            font-size: 0.9rem;
-            margin-bottom: 8px;
-            font-style: italic;
-            padding: 8px;
-            background: #1a1a1a;
-            border-radius: 4px;
-            border-left: 3px solid #d4af37;
-        }
-        
-        .card-captions {
-            margin-bottom: 15px;
-        }
-        
-        .card-caption {
-            background: #d4af37;
-            color: #000;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            display: inline-block;
-            margin-right: 8px;
-            margin-bottom: 5px;
-        }
-        
-        .card-meta {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
-            flex-wrap: wrap;
-        }
-        
-        .card-platform {
-            background: #555;
-            color: #fff;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 500;
-        }
-        
-        .card-status {
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            text-transform: capitalize;
-        }
-        
-        .status-draft { background: #666; color: #fff; }
-        .status-ready { background: #f39c12; color: #000; }
-        .status-filmed { background: #3498db; color: #fff; }
-        .status-posted { background: #27ae60; color: #fff; }
-        
-        .card-full-script {
-            margin-top: 15px;
-            font-size: 0.9rem;
-            color: #ccc;
-            white-space: pre-line;
-            background: #1a1a1a;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 3px solid #d4af37;
-            display: none;
-            max-height: 500px;
-            overflow-y: auto;
-            line-height: 1.5;
-        }
-        
-        .card-full-script.expanded {
-            display: block;
-        }
-        
-        .card-notes {
-            margin-top: 15px;
-            font-size: 0.8rem;
-            color: #888;
-            font-style: italic;
-            display: none;
-            padding: 10px;
-            background: #1a1a1a;
-            border-radius: 4px;
-        }
-        
-        .card-notes.expanded {
-            display: block;
-        }
-        
-        .card-expand {
-            color: #d4af37;
-            font-size: 0.8rem;
-            margin-top: 15px;
-            cursor: pointer;
-            text-align: center;
-            padding: 8px;
-            background: #222;
-            border-radius: 4px;
-        }
-        
-        .card-expand:hover {
-            background: #333;
-        }
-        
-        .loading {
-            text-align: center;
-            color: #888;
-            padding: 40px;
-        }
-        
-        .error {
-            text-align: center;
-            color: #e74c3c;
-            padding: 40px;
-            background: #2a1a1a;
-            border-radius: 8px;
-            margin: 20px;
-        }
-        
-        @media (max-width: 768px) {
-            .board {
-                flex-direction: column;
-            }
-            
-            .column {
-                min-width: unset;
-            }
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0a; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 20px; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .header h1 { font-size: 24px; color: #d4a853; margin-bottom: 5px; }
+        .header p { color: #888; font-size: 14px; }
+        .stats { display: flex; gap: 15px; justify-content: center; margin-bottom: 30px; flex-wrap: wrap; }
+        .stat { background: #1a1a1a; border: 1px solid #333; border-radius: 10px; padding: 12px 20px; text-align: center; min-width: 100px; }
+        .stat-num { font-size: 24px; font-weight: bold; color: #d4a853; }
+        .stat-label { font-size: 11px; color: #888; }
+        .filters { display: flex; gap: 10px; justify-content: center; margin-bottom: 25px; flex-wrap: wrap; }
+        .filter-btn { background: #1a1a1a; border: 1px solid #333; color: #aaa; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 13px; transition: all 0.2s; }
+        .filter-btn:hover, .filter-btn.active { background: #d4a853; color: #000; border-color: #d4a853; }
+        .scripts-grid { display: grid; gap: 15px; max-width: 900px; margin: 0 auto; }
+        .card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; overflow: hidden; transition: border-color 0.2s; }
+        .card:hover { border-color: #d4a853; }
+        .card-header { padding: 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .card-title { font-size: 16px; font-weight: 600; flex: 1; }
+        .card-meta { display: flex; gap: 8px; align-items: center; }
+        .badge { font-size: 11px; padding: 3px 8px; border-radius: 10px; background: #2a2a2a; color: #aaa; }
+        .badge.draft { background: #3a2a0a; color: #d4a853; }
+        .badge.ready { background: #0a3a0a; color: #4ade80; }
+        .badge.filmed { background: #0a2a3a; color: #60a5fa; }
+        .badge.posted { background: #2a0a3a; color: #c084fc; }
+        .arrow { color: #666; transition: transform 0.2s; font-size: 18px; }
+        .card.open .arrow { transform: rotate(180deg); }
+        .card-body { display: none; padding: 0 16px 16px; }
+        .card.open .card-body { display: block; }
+        .section { margin-bottom: 14px; }
+        .section-title { font-size: 12px; color: #d4a853; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+        .hook { background: #111; border-left: 3px solid #d4a853; padding: 8px 12px; margin-bottom: 5px; border-radius: 0 6px 6px 0; font-size: 14px; color: #ddd; }
+        .caption { background: #111; border-left: 3px solid #60a5fa; padding: 8px 12px; margin-bottom: 5px; border-radius: 0 6px 6px 0; font-size: 14px; color: #ddd; font-weight: 600; }
+        .script-text { background: #111; padding: 14px; border-radius: 8px; font-size: 14px; line-height: 1.7; color: #ccc; white-space: pre-wrap; }
+        .script-text .show { color: #60a5fa; font-style: italic; }
+        .based-on { font-size: 12px; color: #888; margin-top: 8px; }
+        .notes { font-size: 12px; color: #666; font-style: italic; margin-top: 6px; }
+        .status-btns { display: flex; gap: 6px; margin-top: 10px; }
+        .status-btn { font-size: 11px; padding: 4px 10px; border-radius: 12px; border: 1px solid #333; background: #1a1a1a; color: #aaa; cursor: pointer; }
+        .status-btn:hover { background: #d4a853; color: #000; border-color: #d4a853; }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>🦞 OpenClaw Content CRM</h1>
-        <p class="subtitle">Competitor-Based Scripts v3 - 18-Year-Old Norwegian AI CEO</p>
+        <h1>🦞 Content CRM</h1>
+        <p id="subtitle">Loading...</p>
     </div>
-    
-    <div id="stats" class="stats">
-        <div class="loading">Loading scripts...</div>
-    </div>
-    
-    <div class="board">
-        <div class="column">
-            <div class="column-header">
-                💡 Draft Scripts
-                <span id="draft-count" class="column-count">0</span>
-            </div>
-            <div id="draft-column" class="cards-container">
-            </div>
-        </div>
-        
-        <div class="column">
-            <div class="column-header">
-                📝 Ready to Film
-                <span id="ready-count" class="column-count">0</span>
-            </div>
-            <div id="ready-column" class="cards-container">
-            </div>
-        </div>
-        
-        <div class="column">
-            <div class="column-header">
-                🎬 Filmed
-                <span id="filmed-count" class="column-count">0</span>
-            </div>
-            <div id="filmed-column" class="cards-container">
-            </div>
-        </div>
-        
-        <div class="column">
-            <div class="column-header">
-                📱 Posted
-                <span id="posted-count" class="column-count">0</span>
-            </div>
-            <div id="posted-column" class="cards-container">
-            </div>
-        </div>
-    </div>
+    <div class="stats" id="stats"></div>
+    <div class="filters" id="filters"></div>
+    <div class="scripts-grid" id="scripts"></div>
 
     <script>
-        let scriptsData = null;
-        
-        async function loadScripts() {
+        let data = null;
+
+        async function load() {
             try {
-                const response = await fetch('scripts.json?v=' + Date.now());
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                scriptsData = await response.json();
-                updateStats();
+                const r = await fetch('scripts.json?t=' + Date.now());
+                data = await r.json();
+                document.getElementById('subtitle').textContent = data.stats.type + ' — ' + data.updated;
+                renderStats();
+                renderFilters();
                 renderScripts();
-            } catch (error) {
-                console.error('Error loading scripts:', error);
-                document.getElementById('stats').innerHTML = `
-                    <div class="error">
-                        Failed to load scripts. Error: ${error.message}<br>
-                        Make sure scripts.json is available and properly formatted.
-                    </div>
-                `;
+            } catch(e) {
+                document.getElementById('subtitle').textContent = 'Error: ' + e.message;
             }
         }
-        
-        function updateStats() {
-            if (!scriptsData) return;
-            
-            const stats = scriptsData.stats;
-            const version = scriptsData.version;
-            const updated = scriptsData.updated;
-            
+
+        function renderStats() {
+            const counts = { draft: 0, ready: 0, filmed: 0, posted: 0 };
+            data.scripts.forEach(s => { counts[s.status || 'draft']++; });
             document.getElementById('stats').innerHTML = `
-                🔥 ${stats.total_scripts} Scripts • ${stats.type} • ${version} • Updated: ${updated}<br>
-                📊 ${stats.source} • Competitor Patterns • Ready to Film
+                <div class="stat"><div class="stat-num">${data.scripts.length}</div><div class="stat-label">Total Scripts</div></div>
+                <div class="stat"><div class="stat-num">${counts.draft}</div><div class="stat-label">💡 Draft</div></div>
+                <div class="stat"><div class="stat-num">${counts.ready}</div><div class="stat-label">📝 Ready</div></div>
+                <div class="stat"><div class="stat-num">${counts.filmed}</div><div class="stat-label">🎬 Filmed</div></div>
+                <div class="stat"><div class="stat-num">${counts.posted}</div><div class="stat-label">📱 Posted</div></div>
             `;
         }
-        
-        function renderScripts() {
-            if (!scriptsData) return;
-            
-            // Clear all columns
-            ['draft', 'ready', 'filmed', 'posted'].forEach(status => {
-                document.getElementById(`${status}-column`).innerHTML = '';
-            });
-            
-            // Group scripts by status
-            const grouped = {
-                draft: [],
-                ready: [],
-                filmed: [],
-                posted: []
-            };
-            
-            scriptsData.scripts.forEach(script => {
-                const status = script.status || 'draft';
-                if (grouped[status]) {
-                    grouped[status].push(script);
+
+        function renderFilters() {
+            document.getElementById('filters').innerHTML = `
+                <div class="filter-btn active" onclick="filter('all')">All</div>
+                <div class="filter-btn" onclick="filter('draft')">💡 Draft</div>
+                <div class="filter-btn" onclick="filter('ready')">📝 Ready</div>
+                <div class="filter-btn" onclick="filter('filmed')">🎬 Filmed</div>
+                <div class="filter-btn" onclick="filter('posted')">📱 Posted</div>
+            `;
+        }
+
+        function filter(status) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            document.querySelectorAll('.card').forEach(c => {
+                if (status === 'all' || c.dataset.status === status) {
+                    c.style.display = '';
+                } else {
+                    c.style.display = 'none';
                 }
             });
-            
-            // Render each group
-            Object.keys(grouped).forEach(status => {
-                const column = document.getElementById(`${status}-column`);
-                const count = grouped[status].length;
-                
-                grouped[status].forEach(script => {
-                    column.appendChild(createCard(script));
-                });
-                
-                // Update count
-                document.getElementById(`${status}-count`).textContent = count;
-            });
         }
-        
-        function createCard(script) {
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.dataset.id = script.id;
-            
-            const hooksHtml = script.hooks.map((hook, i) => 
-                `<div class="card-hook">${i+1}. ${hook}</div>`
-            ).join('');
-            
-            const captionsHtml = script.screen_captions.map(caption => 
-                `<span class="card-caption">${caption}</span>`
-            ).join('');
-            
-            card.innerHTML = `
-                <div class="card-title">${script.title}</div>
-                <div class="card-competitor">Based on: ${script.competitor_style}</div>
-                
-                <div class="card-hooks">
-                    <strong>Hook Options:</strong><br>
-                    ${hooksHtml}
-                </div>
-                
-                <div class="card-captions">
-                    <strong>Screen Captions:</strong><br>
-                    ${captionsHtml}
-                </div>
-                
-                <div class="card-meta">
-                    <span class="card-platform">${script.platform}</span>
-                    <span class="card-status status-${script.status}">${script.status}</span>
-                </div>
-                
-                <div class="card-full-script">
-                    <strong>Full Script:</strong><br><br>
-                    ${script.full_script}
-                </div>
-                
-                <div class="card-notes">
-                    <strong>Notes:</strong> ${script.notes}
-                </div>
-                
-                <div class="card-expand">Click to view full script & notes ↓</div>
-            `;
-            
-            // Add click handler for expansion
-            card.addEventListener('click', () => toggleCard(card));
-            
-            return card;
+
+        function formatScript(text) {
+            return text.replace(/\[SHOW:([^\]]+)\]/g, '<span class="show">[SHOW:$1]</span>');
         }
-        
-        function toggleCard(cardElement) {
-            const isExpanded = cardElement.classList.contains('expanded');
-            
-            // Close all other cards
-            document.querySelectorAll('.card').forEach(card => {
-                card.classList.remove('expanded');
-                card.querySelector('.card-full-script').classList.remove('expanded');
-                card.querySelector('.card-notes').classList.remove('expanded');
-                card.querySelector('.card-expand').textContent = 'Click to view full script & notes ↓';
-            });
-            
-            if (!isExpanded) {
-                cardElement.classList.add('expanded');
-                cardElement.querySelector('.card-full-script').classList.add('expanded');
-                cardElement.querySelector('.card-notes').classList.add('expanded');
-                cardElement.querySelector('.card-expand').textContent = 'Click to collapse ↑';
-            }
+
+        function renderScripts() {
+            const el = document.getElementById('scripts');
+            el.innerHTML = data.scripts.map((s, i) => `
+                <div class="card" data-status="${s.status || 'draft'}" data-index="${i}">
+                    <div class="card-header" onclick="this.parentElement.classList.toggle('open')">
+                        <div class="card-title">${s.title}</div>
+                        <div class="card-meta">
+                            <span class="badge ${s.status || 'draft'}">${s.status || 'draft'}</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="based-on">Based on: ${s.competitor_style || ''}</div>
+                        
+                        <div class="section">
+                            <div class="section-title">Hooks (pick one)</div>
+                            ${(s.hooks || []).map(h => `<div class="hook">"${h}"</div>`).join('')}
+                        </div>
+                        
+                        <div class="section">
+                            <div class="section-title">Screen Captions (pick one)</div>
+                            ${(s.screen_captions || []).map(c => `<div class="caption">${c}</div>`).join('')}
+                        </div>
+                        
+                        <div class="section">
+                            <div class="section-title">Full Script</div>
+                            <div class="script-text">${formatScript(s.full_script || '')}</div>
+                        </div>
+                        
+                        ${s.notes ? `<div class="notes">💡 ${s.notes}</div>` : ''}
+                    </div>
+                </div>
+            `).join('');
         }
-        
-        // Load scripts when page loads
-        document.addEventListener('DOMContentLoaded', loadScripts);
+
+        load();
     </script>
 </body>
 </html>
