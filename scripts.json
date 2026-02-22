@@ -1,10 +1,10 @@
 {
-  "version": "v5-proven-variants",
+  "version": "v6-jason-cooperson-research",
   "updated": "2026-02-22",
   "stats": {
-    "total_scripts": 10,
-    "type": "Proven Variants — Based on 44K-922K view reels",
-    "source": "Competitor transcripts → adapted variants"
+    "total_scripts": 20,
+    "type": "Proven Variants + Jason Cooperson Research System",
+    "source": "Competitor transcripts + Jason's exact methodology"
   },
   "scripts": [
     {
@@ -206,6 +206,206 @@
       "platform": "IG",
       "url": "https://www.instagram.com/p/DU0fNOkknTP/",
       "notes": "Continuation of the Day X series. Each episode references the last. 77K views on Day 3."
+    },
+    {
+      "id": "jason-competitor-analysis",
+      "title": "I analyzed my 8 biggest competitors and found the ONE hook pattern",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "I analyzed my 8 biggest competitors and found the ONE hook pattern that gets 10M+ views.",
+        "I scraped 1000+ viral reels from my biggest competitors. Here's what they ALL do.",
+        "Everyone copies MrBeast hooks. But the real money makers are copying THIS pattern."
+      ],
+      "screen_captions": [
+        "ANALYZED 8 COMPETITORS",
+        "ONE PATTERN = 10M+ VIEWS",
+        "NOBODY TALKS ABOUT THIS"
+      ],
+      "full_script": "1. HOOK: 'I analyzed 8 competitors and found THE pattern'\n2. Show competitor list — buildwithcody, baroobi, matthewberman_ai, etc.\n3. 'I used this automated system to scrape their top 1000 posts'\n4. Show data/screenshots of analysis\n5. 'Every single viral post follows this exact structure'\n6. Break down THE PATTERN — first 3 seconds, curiosity gap, CTA\n7. 'This is what Jason Cooperson calls reverse engineering money'\n8. Show 2-3 examples applying the pattern\n9. 'Stop guessing. Start using data.'\n\nKEY: Show actual data, not theory. Reference Jason's system. This is research-backed, not opinion.",
+      "platform": "IG",
+      "jason_framework": "Competitor research automation → hook pattern extraction → viral formula",
+      "notes": "Based on Jason's EXACT research system. Use real competitor data from pipeline."
+    },
+    {
+      "id": "jason-wrong-hook-structure",
+      "title": "99% of AI creators are using the wrong hook structure",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "Here's why 99% of AI content creators are using the wrong hook structure.",
+        "I studied 500 failed AI reels. They ALL make the same hook mistake.",
+        "Your hooks aren't working because you're doing what everyone else does."
+      ],
+      "screen_captions": [
+        "99% DOING IT WRONG",
+        "THE HOOK MISTAKE",
+        "THIS IS WHY YOU'RE STUCK"
+      ],
+      "full_script": "1. HOOK: '99% are doing it wrong'\n2. 'Everyone copies the same 3 hook formats from 2022'\n3. Show common bad hooks — 'Watch me do X', 'This AI tool will change your life'\n4. 'The problem: these don't convert viewers into customers'\n5. 'I reverse engineered the hooks that actually make money'\n6. Show Jason's ICP → hook connection method\n7. 'Your hook needs to speak to pain points, not just get attention'\n8. Example: bad hook vs conversion-focused hook\n9. 'Volume doesn't matter if you're not converting'\n\nKEY: Not about views — about conversion. Reference Jason's ICP-driven hook method.",
+      "platform": "IG",
+      "jason_framework": "ICP document → pain points → conversion-focused hooks",
+      "notes": "Jason's methodology: hooks must convert, not just get views. Pain point focused."
+    },
+    {
+      "id": "jason-scraped-viral-patterns",
+      "title": "I scraped 1000+ viral AI reels - these 5 patterns dominate",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "I scraped 1000+ viral AI reels. These 5 patterns are responsible for 80% of the views.",
+        "There are only 5 hook patterns that actually work in AI content. Here they are.",
+        "I built an automated system to analyze viral AI content. The results shocked me."
+      ],
+      "screen_captions": [
+        "SCRAPED 1000+ REELS",
+        "5 PATTERNS = 80% OF VIEWS",
+        "THE DATA DOESN'T LIE"
+      ],
+      "full_script": "1. HOOK: 'Scraped 1000+ reels, here's what I found'\n2. Show the automation system — 'This is what Jason Cooperson calls his research agent'\n3. 'Pattern 1: The React Hook' — show examples\n4. 'Pattern 2: The Mistake Warning' — examples\n5. 'Pattern 3: The Experiment Series' — examples  \n6. 'Pattern 4: The Data Revelation' — examples\n7. 'Pattern 5: The Contrarian Take' — examples\n8. 'Every viral creator uses these 5. That's it.'\n9. 'Stop inventing new formats. Master these 5.'\n\nKEY: Show actual data from research. Reference competitor examples. Data-driven, not opinion.",
+      "platform": "IG",
+      "jason_framework": "Automated research → pattern extraction → proven formats",
+      "notes": "Use actual patterns from competitor analysis. Reference Jason's N8N research system."
+    },
+    {
+      "id": "jason-stop-copying-wrong",
+      "title": "Stop copying MrBeast. Copy THESE creators if you're in AI",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "Stop copying MrBeast. Start copying THESE creators if you're in AI/automation.",
+        "Everyone copies the wrong creators for AI content. Here's who you should actually study.",
+        "MrBeast's hooks don't work for B2B. These creators' hooks make millions."
+      ],
+      "screen_captions": [
+        "STOP COPYING MRBEAST",
+        "COPY THESE CREATORS",
+        "AI/AUTOMATION SPECIFIC"
+      ],
+      "full_script": "1. HOOK: 'Stop copying MrBeast. Copy THESE creators.'\n2. 'MrBeast hooks work for entertainment. Not for B2B conversion.'\n3. 'If you're in AI/automation, study these 4 creators instead'\n4. Creator 1: buildwithcody — 'Experiment series format'\n5. Creator 2: baroobi — 'React to controversy format'  \n6. Creator 3: matthewberman_ai — 'Tutorial breakdown format'\n7. Creator 4: simonbeard — 'Business insight format'\n8. 'Each has a different ICP. Match your hooks to your ICP.'\n9. 'This is Jason Cooperson's competitor research method'\n\nKEY: Specific to AI/automation niche. Show why format matters for audience. ICP-driven.",
+      "platform": "IG",
+      "jason_framework": "Niche-specific competitor analysis → format matching → ICP alignment",
+      "notes": "Jason's method: study creators in your exact niche, not general entertainment."
+    },
+    {
+      "id": "jason-automation-hook-million",
+      "title": "The automation hook that made this creator $1M in 90 days",
+      "status": "draft", 
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "The 'automation' hook that made this creator $1M in 90 days.",
+        "One hook structure. 90 days. $1M in revenue. Here's the breakdown.",
+        "I reverse engineered the hook that turned content into $1M. Here it is."
+      ],
+      "screen_captions": [
+        "$1M IN 90 DAYS",
+        "ONE HOOK STRUCTURE",
+        "REVERSE ENGINEERED"
+      ],
+      "full_script": "1. HOOK: 'This automation hook made someone $1M'\n2. 'I found a creator who went from 0 to $1M in 90 days'\n3. 'Every viral video used the SAME hook structure'\n4. Show the hook: 'I built an AI that does [painful task] so you don't have to'\n5. Break down why it works: pain point + solution + social proof\n6. 'This follows Jason Cooperson's reverse engineering method'\n7. Show 3 variations of the same hook structure\n8. 'The hook connects pain to profit. Not just entertainment.'\n9. 'Use this structure: I built [solution] for [pain point]'\n\nKEY: Use real case study. Show hook structure breakdown. Pain point focused.",
+      "platform": "IG", 
+      "jason_framework": "Reverse engineer successful hooks → identify pain point patterns → replicate structure",
+      "notes": "Jason's reverse engineering method applied to successful creator case study."
+    },
+    {
+      "id": "jason-zero-ads-research",
+      "title": "I spent $0 on ads and got 50M views using competitor research",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System", 
+      "hooks": [
+        "I spent $0 on ads and got 50M views using this competitor research method.",
+        "How to get millions of views without spending on ads: competitor research method.",
+        "This automated research system replaced my entire marketing budget."
+      ],
+      "screen_captions": [
+        "$0 ON ADS",
+        "50M VIEWS",
+        "COMPETITOR RESEARCH"
+      ],
+      "full_script": "1. HOOK: '$0 ads, 50M views, competitor research method'\n2. 'Everyone's burning money on Meta ads. I took a different approach.'\n3. 'I built Jason Cooperson's Instagram research agent'\n4. Show the system — 'It scrapes my competitors every week'\n5. 'Analyzes what's working, generates content ideas based on data'\n6. 'Instead of guessing, I post what's already proven to work'\n7. Show results — engagement, growth, conversion metrics\n8. 'This is what data-driven content looks like'\n9. 'Stop gambling with ads. Start copying what works.'\n\nKEY: Show the research system in action. Emphasize data over guessing.",
+      "platform": "IG",
+      "jason_framework": "Automated competitor analysis → proven content replication → organic growth",
+      "notes": "Jason's N8N research system for organic growth vs paid ads."
+    },
+    {
+      "id": "jason-buildwithcody-3second",
+      "title": "Why buildwithcody's hooks work and yours don't (3-second rule)",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "Why buildwithcody's hooks work and yours don't. It's the 3-second rule.",
+        "I analyzed every buildwithcody viral video. He does THIS in the first 3 seconds.",
+        "Your hooks fail because you're missing what buildwithcody does in 3 seconds."
+      ],
+      "screen_captions": [
+        "WHY HIS HOOKS WORK",
+        "3-SECOND RULE",
+        "YOU'RE MISSING THIS"
+      ],
+      "full_script": "1. HOOK: 'Why buildwithcody's hooks work and yours don't'\n2. 'I analyzed his top 50 viral videos. Same pattern every time.'\n3. 'First 3 seconds: He asks a question that creates pain'\n4. Show examples — 'Is it possible to make $1000 with AI?'\n5. 'Your hooks probably start with: Watch me do X'\n6. 'His hooks start with: Can X actually work?'\n7. 'Question format creates curiosity gap. Statement format doesn't.'\n8. 'This is Jason Cooperson's hook analysis method'\n9. 'Change your first 3 seconds. Change your results.'\n\nKEY: Specific creator breakdown. Show before/after hook examples. 3-second focus.",
+      "platform": "IG",
+      "jason_framework": "Creator-specific analysis → hook pattern extraction → 3-second optimization",
+      "notes": "Jason's method: analyze successful creators' exact hook patterns."
+    },
+    {
+      "id": "jason-matthew-berman-formula",
+      "title": "The Matthew Berman formula: How to make AI tutorials go viral",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "The Matthew Berman formula: How to make AI tutorials go viral.",
+        "I reverse engineered Matthew Berman's viral tutorial format. Here's the breakdown.",
+        "Every viral AI tutorial follows this exact structure. Most people miss it."
+      ],
+      "screen_captions": [
+        "MATTHEW BERMAN FORMULA",
+        "VIRAL TUTORIAL STRUCTURE",
+        "MOST PEOPLE MISS THIS"
+      ],
+      "full_script": "1. HOOK: 'The Matthew Berman formula for viral tutorials'\n2. 'I analyzed his top performing tutorial videos'\n3. 'Every single one follows the same 5-step structure'\n4. 'Step 1: Hook with a bold claim about the AI tool'\n5. 'Step 2: Quick demo showing the impossible result'\n6. 'Step 3: Technical breakdown — how it actually works'\n7. 'Step 4: Real-world application — why it matters'\n8. 'Step 5: Call to action — subscribe for more'\n9. 'This formula works because it combines entertainment with education'\n\nKEY: Specific creator formula breakdown. Educational content angle.",
+      "platform": "IG",
+      "jason_framework": "Creator formula analysis → tutorial structure extraction → replicable format",
+      "notes": "Jason's method applied to educational content creators like Matthew Berman."
+    },
+    {
+      "id": "jason-secret-pattern-viral",
+      "title": "I found the secret pattern behind every viral AI automation reel",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "I found the secret pattern behind every viral AI automation reel.",
+        "There's a hidden structure in viral AI content. Once you see it, you can't unsee it.",
+        "I analyzed 2000+ viral AI reels. They ALL follow this pattern."
+      ],
+      "screen_captions": [
+        "SECRET PATTERN FOUND",
+        "VIRAL AI STRUCTURE",
+        "ANALYZED 2000+ REELS"
+      ],
+      "full_script": "1. HOOK: 'Secret pattern behind every viral AI reel'\n2. 'I built an automated system to analyze viral AI content'\n3. 'Found the same pattern in 90% of viral posts'\n4. 'The pattern: Problem → AI Solution → Result → Proof'\n5. Show examples from different creators using same pattern\n6. 'Problem: I hate editing videos. Solution: AI editor. Result: 10x faster. Proof: Screen recording'\n7. 'Every viral AI reel follows this exact sequence'\n8. 'This is Jason Cooperson's content pattern analysis'\n9. 'Use this structure. Stop trying to be creative.'\n\nKEY: Show the universal pattern across creators. Data-driven insight.",
+      "platform": "IG", 
+      "jason_framework": "Pattern analysis across creators → universal structure identification → replicable format",
+      "notes": "Jason's method: find patterns that work across all successful creators."
+    },
+    {
+      "id": "jason-hook-structure-80percent",
+      "title": "This hook structure is responsible for 80% of viral AI content",
+      "status": "draft",
+      "competitor_style": "Jason Cooperson Research System",
+      "hooks": [
+        "This hook structure is responsible for 80% of viral AI content.",
+        "One hook format. 80% of viral AI videos. Here's the breakdown.",
+        "I found the hook structure that dominates AI content. Most people don't know it exists."
+      ],
+      "screen_captions": [
+        "80% OF VIRAL CONTENT",
+        "ONE HOOK STRUCTURE",
+        "MOST PEOPLE DON'T KNOW"
+      ],
+      "full_script": "1. HOOK: 'This hook structure = 80% of viral AI content'\n2. 'I analyzed viral AI content for 6 months'\n3. 'The same hook structure appeared in 80% of top posts'\n4. 'The structure: I [action] and [surprising result]'\n5. Show examples: 'I asked ChatGPT to write code and it built a full app'\n6. 'I told AI to edit this video and it did something crazy'\n7. 'I automated my business and made $10K while sleeping'\n8. 'Action + surprising result = guaranteed engagement'\n9. 'This is Jason Cooperson's hook pattern research'\n10. 'Use this structure for instant virality'\n\nKEY: Show statistical dominance. Give replicable structure with examples.",
+      "platform": "IG",
+      "jason_framework": "Statistical analysis → dominant pattern identification → hook structure formula",
+      "notes": "Jason's data-driven approach to identifying winning hook patterns."
     }
   ]
 }
