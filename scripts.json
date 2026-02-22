@@ -1,231 +1,211 @@
 {
-  "version": "v4-proven",
+  "version": "v5-proven-variants",
   "updated": "2026-02-22",
   "stats": {
     "total_scripts": 10,
-    "type": "Proven Top Performers",
-    "source": "Real reels that got 44K-922K views"
+    "type": "Proven Variants — Based on 44K-922K view reels",
+    "source": "Competitor transcripts → adapted variants"
   },
   "scripts": [
     {
-      "id": "baroobi-922k",
-      "title": "#1 \u2014 AI Tool Controversy Reaction (922K views)",
+      "id": "react-ai-gone-wrong",
+      "title": "React: AI tool used for something insane",
       "status": "draft",
-      "competitor_style": "@baroobi \u2014 922K views, 67K likes",
+      "competitor_style": "@baroobi — 922K views",
       "hooks": [
-        "So somebody made an interesting map right here, actually...",
-        "[React to something shocking in tech/AI]",
-        "[Show screen + genuine \"WTF\" reaction]"
+        "Bro. Somebody just used AI to do something that should NOT be legal.",
+        "I just found something and I genuinely don't know how to react to this.",
+        "This is why people are scared of AI. And honestly? They should be."
       ],
       "screen_captions": [
-        "WHAT IS THIS \ud83d\ude2d",
-        "AI GONE WRONG",
-        "THIS IS NOT OK"
+        "THIS SHOULD BE ILLEGAL",
+        "AI GONE TOO FAR",
+        "WHAT ARE WE DOING 😭"
       ],
-      "full_script": "So somebody made an interesting map right here, actually. What you're looking at, my friend, as you can see from Bonnie, Jamal, Kendrick, Lakeisha, this is no ordinary map. This is a map or a website to avoid black people. Wallahi, I can't make this up. I cannot make this up. Bro has heat map filters. Bro, I'm feeling like I'm in Call of Duty with a freaking perk. Popeyes locations and Waffle House locations. It's not funny. Guys, what the frick are we doing? This is not where tech is supposed to be at. Link to it? I don't know if it's still up. I haven't even checked, but.",
+      "full_script": "[Find a controversial AI use case that week — racist tool, deepfake scandal, privacy violation, etc.]\n\nShow it on screen. React genuinely.\n\nStructure:\n1. Show the thing (screen recording or screenshot)\n2. React — 'bro what is this'\n3. Explain why it's wild — give the technical detail\n4. Give your real opinion — don't sit on the fence\n5. End with a question to the audience\n\nKEY: Don't script this. Find the thing, hit record, react naturally. The less polished, the better.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUmhEx8jYEI/",
-      "why_it_worked": "Controversy + genuine reaction + humor. No script feel \u2014 just discovered something wild and hit record.",
-      "template": "REACT to something wild in AI/tech. Show screen. Give genuine opinion. Don't over-produce.",
-      "notes": "Baroobi's #1 format. Find controversial AI use case \u2192 react naturally."
+      "notes": "Baroobi's #1 format. Find controversial AI use case each week → react. 922K views on original."
     },
     {
-      "id": "baroobi-844k",
-      "title": "#2 \u2014 Data Breach News + Security (844K views)",
+      "id": "youre-cooked-breach",
+      "title": "You're cooked — [breaking security/tech news]",
       "status": "draft",
-      "competitor_style": "@baroobi \u2014 844K views, 22K likes",
+      "competitor_style": "@baroobi — 844K views",
       "hooks": [
-        "If you're still going you're cooked. This company got hacked.",
-        "[Breaking news + \"you're cooked\" urgency]",
-        "[Specific numbers: 200 million users breached]"
+        "If you're using [app/service] you're cooked. They just got hacked.",
+        "Stop what you're doing. [Company] just had the biggest data breach of the year.",
+        "[X] million users just got exposed. If you have an account, here's what to do RIGHT NOW."
       ],
       "screen_captions": [
-        "YOU'RE COOKED \ud83c\udf73",
-        "200M USERS HACKED",
-        "CHECK THIS NOW"
+        "YOU'RE COOKED 🍳",
+        "CHECK THIS NOW",
+        "DELETE YOUR ACCOUNT"
       ],
-      "full_script": "If you're still going you're cooked. This company got hacked. It's been reported that there's 200 million users data that's been breached. Part of me doesn't want to make this video because like why the hell do you have an account? Why are you a premium user? But I gotta just spread the news and this breach is actually really crazy because the emails, watches, search terms, video titles, bro. And location basically the complete activity record of users is there in the breach. The good news though is they didn't get your passwords. They didn't get the payment information. So you might be like, oh, so I'm good. First of all, you're beyond cooked. There's a lot of problems here that we got to fix. But let's talk about the technical aspect. Since they have your email and they don't have your passwords, they can cross-reference your email with other data breaches that have passwords in them. So let's say you use the same email across Facebook, and then they can go and see a Facebook or a Meta data breach that happened a couple years ago. And then from there they can get your password. Or worse, they can find your identity by matching your email with other data breaches that have your name in it. And they can use you for extortion. So yeah, stop going guys.",
+      "full_script": "[Wait for a data breach or security scandal to drop]\n\n1. HOOK: 'If you're using X, you're cooked'\n2. What happened — the breach, the numbers\n3. 'Part of me doesn't want to make this video'\n4. Technical breakdown — what was exposed, what wasn't\n5. 'So you're thinking you're safe? First of all, you're beyond cooked'\n6. Explain cross-referencing attacks\n7. What to do — specific steps\n8. End: 'So yeah, stop [doing the thing]'\n\nKEY: Urgency + actual technical value. Not fear-mongering — give real fixes.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DSdgQgkjXgJ/",
-      "why_it_worked": "Breaking news urgency + 'you're cooked' hook + actually useful technical explanation + personality.",
-      "template": "NEWS BREAK format: Hook with urgency \u2192 explain the problem \u2192 give the technical 'why it matters' \u2192 end with advice.",
-      "notes": "Works for any data breach, security issue, or tech scandal."
+      "notes": "Repeatable every time there's a breach. 844K views on original."
     },
     {
-      "id": "baroobi-248k",
-      "title": "#3 \u2014 'You're Setting It Up Wrong' Warning (248K views)",
+      "id": "doing-it-wrong",
+      "title": "Everyone's using [trending thing] wrong",
       "status": "draft",
-      "competitor_style": "@baroobi \u2014 248K views, 13K likes",
+      "competitor_style": "@baroobi — 248K views",
       "hooks": [
-        "Bro if you're running ClawdBot you're cooked and it's going mega viral right now",
-        "[Trend-jack something popular + warn about danger]",
-        "[Specific scary number: 900 servers vulnerable]"
+        "If you just set up [trending tool] you're probably already hacked.",
+        "Everyone's downloading [tool] right now. 90% of them are setting it up completely wrong.",
+        "[Tool] is going mega viral. But security researchers just found something terrifying."
       ],
       "screen_captions": [
-        "YOU'RE EXPOSED \ud83d\udd13",
-        "900 SERVERS HACKED",
-        "FIX THIS NOW"
+        "YOU SET IT UP WRONG",
+        "900+ SERVERS EXPOSED",
+        "FIX THIS IN 3 SECONDS"
       ],
-      "full_script": "Bro if you're running ClawdBot you're cooked and it's going mega viral right now and people are just downloading it left or right center. People are literally sucking up on Apple Minis just to get this. The thing is a lot of these people are setting it up very wrong. They're making it super vulnerable. Bro, security researchers have found over 900 servers completely vulnerable with zero authentication. Really anyone can go in and access their API keys and just rinse them. Can read your private messages, hack commands. This is all because people misconfigured their proxy. Just go on Twitter and search that up. You will see many examples. Like in this case this person was attacked almost 8,000 times. Here's how to fix this in three seconds. First, bind to a loopback only in your config. Second, lock port 18789. Third, just use like a Cloudflare tunnel or Tailscale to remote access. And please stop exposing your whole control panel to the internet.",
+      "full_script": "[Pick any trending AI tool, app, or software]\n\n1. HOOK: 'everyone is doing X and they're all cooked'\n2. What's going viral — the hype, the downloads\n3. 'The thing is, people are setting it up very wrong'\n4. The scary stat — 'researchers found X servers vulnerable'\n5. What's exposed — API keys, messages, data\n6. 'Here's how to fix this in three seconds'\n7. Step 1, Step 2, Step 3 — simple fixes\n8. 'And please stop [doing the wrong thing]'\n9. CTA: Follow for more\n\nKEY: Trend-jack + warn + give a 3-step fix. Value bomb.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUClvCLjQeD/",
-      "why_it_worked": "Trend-jacking (OpenClaw hype) + security scare + simple 3-step fix = value.",
-      "template": "TREND-JACK + WARN: Ride a hot trend \u2192 point out what everyone's doing wrong \u2192 give 3-step fix.",
-      "notes": "Works for any trending tool/app. 'Everyone's using X but they're setting it up wrong.'"
+      "notes": "Works every time something goes viral. 248K views on original."
     },
     {
-      "id": "cody-day1-231k",
-      "title": "#4 \u2014 'Can X Pay For Itself?' Day 1 (231K views)",
+      "id": "day1-experiment",
+      "title": "Day 1: Can [AI tool] make $1000 in 7 days?",
       "status": "draft",
-      "competitor_style": "@buildwithcody \u2014 231K views, 7.7K likes",
+      "competitor_style": "@buildwithcody — 231K views",
       "hooks": [
-        "Is it possible for ClaudeBot to make over $1,000 in a week?",
-        "[Challenge question + experiment setup]",
-        "[Specific dollar amount + timeframe]"
+        "Is it possible to make $1,000 with AI in one week? Let's find out.",
+        "Everyone says AI can make you money. Nobody's actually tested it. Until now.",
+        "I'm giving an AI agent 7 days and zero budget. Day 1 starts now."
       ],
       "screen_captions": [
         "$1000 IN 7 DAYS?",
         "AI MONEY EXPERIMENT",
-        "DAY 1 RESULTS"
+        "DAY 1 — LET'S GO"
       ],
-      "full_script": "Is it possible for ClaudeBot to make over $1,000 in a week? Ooh, look at that. ClaudeBot is like an AI personal assistant that runs for you 24 hours a day. So here's the idea that we're gonna give to ClaudeBot to get it started. I've had this idea for a while to help boomers understand and use personal AI assistants because genuinely I've seen it help my parents and I think it could be really beneficial to a lot of people. You're probably thinking, why would you do this? You've got another startup to run, you've got another business. But first of all, the Mac mini costs $999 and everyone on the internet has been talking about how these things can go out and start businesses and make money, but no one's actually put it to the test. So why can't we? So follow for day two to see if this bot can actually make some money.",
+      "full_script": "1. HOOK: Question — 'Is it possible to make $X with [AI tool] in Y days?'\n2. Show the tool — quick visual of what it is\n3. The idea — 'here's what I'm going to try'\n4. Why — 'everyone talks about this but nobody actually tests it'\n5. The setup — show the tech, the plan\n6. Day 1 results — honest, including failures\n7. Cliff hanger: 'Follow for day 2 to see if this actually works'\n\nKEY: Series format. Each episode ends with a reason to follow. Be honest about failures — that's what makes it real.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUusIt3EmTJ/",
-      "why_it_worked": "Clear question hook + genuine curiosity + experiment format = follow for next episode.",
-      "template": "DAY X SERIES: Ask a question \u2192 explain the experiment \u2192 show day 1 \u2192 cliffhanger for next day.",
-      "notes": "Series format is KING for followers. Each day builds on the last."
+      "notes": "SERIES FORMAT — creates follow momentum. 231K views on Day 1. Keep going Day 2, 3, etc."
     },
     {
-      "id": "cody-day3-77k",
-      "title": "#5 \u2014 Day 3 Series Continuation (77K views)",
+      "id": "credibility-intro",
+      "title": "Who am I — 1 minute credibility intro",
       "status": "draft",
-      "competitor_style": "@buildwithcody \u2014 77K views, 2.9K likes",
+      "competitor_style": "@simonbeard — 67K views",
       "hooks": [
-        "Is it possible to make $1,000 with ClaudeBot in 7 days?",
-        "[Address skeptics from comments]",
-        "[\"What if the comments were right?\"]"
+        "My name is Albert. I'm 18. Here's a one minute summary of what I've built.",
+        "I started my first company at 17. Here's what happened in 12 months.",
+        "18 years old, running an AI company in Norway. Here's the 60-second version."
       ],
       "screen_captions": [
-        "DAY 3 UPDATE",
-        "DID IT WORK?",
-        "MARKETING STUNT?"
+        "18 YEARS OLD 🇳🇴",
+        "BUILT THIS IN 12 MONTHS",
+        "THE FULL STORY"
       ],
-      "full_script": "Is it possible to make $1,000 with ClaudeBot in 7 days? I had this idea of getting rich only using OpenClaw, the most hyped AI agent in the world. Hey OpenClaw, start a million dollar business, make no mistake. But OpenClaw is only powerful if it has access to the apps that it needs. I'm going to show you something super important, how to use Clawhub to access skills for your bot. First, what business could we start with ClaudeBot to make $1,000 in a week? What if the comments from yesterday were right? What if it was all just a marketing stunt? And we had an idea, if we just told our OpenClaw agent to go and find humans on the internet who want to set up OpenClaw themselves. Basically just going out and making more AI agent friends for itself and then getting paid for it. We went to Clawhub.ai and copied this code snippet into our terminal. And gave our bot access to Facebook, YouTube and LinkedIn to find every comment where someone was confused about ClaudeBot. We gave our bot 24 hours and permission to message whoever it wanted to set up a meeting. All we need is one person and one business to say yes. So follow for day 4 because I'm going to go to sleep and we can find out tomorrow together if it works.",
-      "platform": "IG",
-      "url": "https://www.instagram.com/p/DU0fNOkknTP/",
-      "why_it_worked": "Series momentum + addressing skeptics ('marketing stunt?') + cliffhanger.",
-      "template": "SERIES CONTINUATION: Recap question \u2192 address comments/skeptics \u2192 show progress \u2192 cliff hanger.",
-      "notes": "Engaging with comment criticism makes viewers feel heard and come back."
-    },
-    {
-      "id": "simon-intro-67k",
-      "title": "#6 \u2014 Personal Credibility Intro (67K views)",
-      "status": "draft",
-      "competitor_style": "@simonbeard \u2014 67K views, 4.6K likes",
-      "hooks": [
-        "My name is Simon Beard. Here is a one minute summary of who I am and how my content can add value to you.",
-        "[Direct intro + proof of results]",
-        "[Specific numbers that prove credibility]"
-      ],
-      "screen_captions": [
-        "WHO AM I?",
-        "$300M EXIT",
-        "1000+ EMPLOYEES"
-      ],
-      "full_script": "My name is Simon Beard. Here is a one minute summary of who I am and how my content can add value to you. This is my wife and I starting Culture Kings in a little flea market on the Gold Coast paying $30 a day rent in 2008. From there, we were able to grow 20% to 100% year on year for 14 straight years, 20% average EBITDA. The big secret to doing this is we worked 80 to 100 hour weeks that entire time. We bootstrapped our way with no debt and no investors to a few hundred million dollars in turnover, and we didn't spend any money. We were making $10 million profit a year and reinvesting the entire lot, just paying ourselves $150,000 a year salary. I've been learning and doing Facebook ads since 2010 and spent over $100 million of my own money. I've employed over 1,000 staff. I created 12 in-house brands that do over $100 million a year, and I was able to sell half the company for $300 million in cash, and the rest we listed in an IPO on the New York Stock Exchange. Why do I tell you all this? Because in today's world, I believe who is saying something is more important than what is being said. This account, I create micro lessons to help entrepreneurs and founders on their journey. So if my videos give you value, please like it. If they're really good, share it.",
+      "full_script": "1. HOOK: Name + age + '60 second summary'\n2. Visual proof — show the business, the setup, the Mac Mini\n3. Real numbers — clients, revenue, what you've built\n4. The failures — 'I started with shower filters, it didn't work'\n5. What you learned — the lesson that led to the real business\n6. What you do now — AI automation for Norwegian businesses\n7. Why you're sharing — 'who is saying something matters more than what'\n8. CTA: 'If this gives you value, follow. I'm sharing everything.'\n\nKEY: Pin this video. Specific numbers > vague claims. Mention failures — it builds trust.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DAktihipKV4/",
-      "why_it_worked": "Raw credibility + specific numbers ($300M exit, 1000 staff, $100M ad spend) + humble delivery + clear value prop.",
-      "template": "CREDIBILITY INTRO: Name \u2192 visual proof of journey \u2192 specific numbers \u2192 'why I tell you this' \u2192 value promise.",
-      "notes": "Pin this type of video. First video new followers see."
+      "notes": "Pin to profile. Every new follower sees this first. 67K views on Simon's version."
     },
     {
-      "id": "cody-naval-65k",
-      "title": "#7 \u2014 Book/Video Recommendation + Reflection (65K views)",
+      "id": "sounds-scammy",
+      "title": "Sounds scammy. It isn't. [Book/video/idea recommendation]",
       "status": "draft",
-      "competitor_style": "@buildwithcody \u2014 65K views, 7K likes",
+      "competitor_style": "@buildwithcody — 65K views",
       "hooks": [
-        "Listen to the title of this video. How to get rich without getting lucky.",
-        "Sounds scammy. It isn't.",
-        "[Contrarian opener \u2014 'I thought X but actually Y']"
+        "Listen to the title: 'How to get rich without getting lucky.' Sounds scammy. It isn't.",
+        "This video changed how I think about money. And no, it's not what you think.",
+        "I watched a 3-hour video by a billionaire. Here's the one thing that hit me."
       ],
       "screen_captions": [
         "SOUNDS SCAMMY",
         "IT ISN'T",
-        "WATCH THIS"
+        "THIS CHANGED EVERYTHING"
       ],
-      "full_script": "Listen to the title of this video. How to get rich without getting lucky. It's three and a half hours long. It's by a guy called Naval who's a really respected voice in Silicon Valley. And it's not about money. When I first saw this video I thought it was just another cringy get-rich-quick scheme from an influencer. But after I watched it, I realized that it's actually the opposite. It's not about money. It's about ownership. Naval keeps coming back to this idea of ownership. Jobs pay you for time. But ownership pays you for decisions. Then he talks about leverage. There are three ways that you can get leverage. The first is through code. So writing software that can increase your workload by 10, 20, 30x. The second way is through content which is what I'm doing now. And number three is building a product that scales. But the uncomfortable part is once you have leverage it becomes less about effort and more about the decisions that you're making. And that part hit me. Because I'm constantly telling myself Cody you are not working hard enough. Even though I'm making progress that I should be proud of. Naval is telling us you should play long-term games with long-term people using leverage. So yeah, I watch this video for three hours. Not because I'm more disciplined than you. It's because I'm trying to learn. And if you're up late, you're working hard on something, you are not alone. This is just how it looks before it starts to work.",
+      "full_script": "1. HOOK: Title of the thing that sounds scammy\n2. 'When I first saw this I thought it was another cringe get-rich-quick thing'\n3. 'But actually it's the opposite. It's about [real insight].'\n4. Break down 2-3 key ideas from the content\n5. The personal hit — 'this part got me because I keep telling myself [self-doubt]'\n6. The uncomfortable truth\n7. End vulnerable: 'I'm not more disciplined than you. I'm just trying to learn.'\n8. 'If you're up late working on something — you are not alone.'\n\nKEY: The vulnerability at the end is what makes this format work. Not a flex — it's real.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUQVp3pkr6a/",
-      "why_it_worked": "Vulnerability + relatable self-doubt + genuine value (not selling anything) + 'you are not alone' ending.",
-      "template": "RECOMMENDATION + REFLECTION: 'I found this thing' \u2192 what I expected \u2192 what it actually was \u2192 personal takeaway \u2192 encouragement.",
-      "notes": "The vulnerability at the end is what makes this hit. Not a flex \u2014 it's real."
+      "notes": "Works for any book, podcast, video. The 'sounds scammy' contrarian hook is powerful. 65K views."
     },
     {
-      "id": "baroobi-61k",
-      "title": "#8 \u2014 Security Rant / Community Warning (61K views)",
+      "id": "rant-stop-doing-this",
+      "title": "Rant: Stop doing [dumb thing in tech/AI]",
       "status": "draft",
-      "competitor_style": "@baroobi \u2014 61K views, 3.7K likes",
+      "competitor_style": "@baroobi — 61K views",
       "hooks": [
-        "Ya all of these script kiddies are gonna have the time of their life",
-        "[Frustrated rant about people doing something dumb]",
-        "[Genuine concern for community]"
+        "All of these people running AI bots with zero security are about to have a very bad day.",
+        "I'm genuinely tired of seeing people [doing dumb thing]. It's not even funny anymore.",
+        "Bro. Do you realize what you just did? You literally [explain the mistake]."
       ],
       "screen_captions": [
-        "SCRIPT KIDDIES \ud83d\ude2d",
-        "ZERO SECURITY",
-        "PLEASE STOP"
+        "STOP DOING THIS",
+        "YOU'RE EXPOSED",
+        "PLEASE LEARN THIS FIRST"
       ],
-      "full_script": "Ya all of these script kiddies are gonna have the time of their life. Honestly it's not even funny at this point. People are running these bots with zero authentication, zero security, and just putting everything on the open internet. And I'm sitting here thinking bro, do you realize what you just did? You literally gave the keys to your entire digital life to anyone who knows how to open a browser. And the worst part? Most of these people don't even know they're exposed. They set it up, they think they're cool, they think they're tech savvy, and meanwhile their API keys, their messages, their entire setup is just sitting there. Wide open. For anyone to grab. This is why I keep saying \u2014 if you're gonna run these things, at least learn basic security first. Please.",
+      "full_script": "1. HOOK: Frustrated statement about people doing something wrong\n2. 'Honestly it's not even funny at this point'\n3. Describe the problem — what people are doing\n4. 'I'm sitting here thinking bro, do you realize what you just did?'\n5. The consequences — what can go wrong\n6. 'The worst part? They don't even know they're exposed'\n7. Simple advice: 'learn [basic thing] first'\n8. End: 'Please.'\n\nKEY: Comes from genuine concern, not superiority. The 'please' at the end shows you care.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUhCn_dDaoa/",
-      "why_it_worked": "Genuine frustration + community concern + repeat of security theme (his niche).",
-      "template": "RANT FORMAT: '[Group] is doing [dumb thing]' \u2192 explain why it's bad \u2192 show examples \u2192 'please stop'.",
-      "notes": "Rants work when they come from genuine concern, not superiority."
+      "notes": "Rant format. Find something people are doing wrong in your niche → frustrated commentary. 61K views."
     },
     {
-      "id": "simon-brand-44k",
-      "title": "#9 \u2014 One-Person Brand Revolution (44K views)",
+      "id": "one-person-revolution",
+      "title": "One person, $10K, 8 months → $850K. Here's how.",
       "status": "draft",
-      "competitor_style": "@simonbeard \u2014 44K views, 2.6K likes",
+      "competitor_style": "@simonbeard — 44K views",
       "hooks": [
-        "There's never been an easier time to start a brand. One person. 10K. Eight months later, 850K in January.",
-        "[Bold claim + immediate proof with numbers]",
-        "[Old way vs new way framework]"
+        "One person. $10K. No employees. 8 months later: $850K in a single month.",
+        "The rules of business just changed. And most people haven't caught up.",
+        "This is the most important shift in business since the internet. And nobody's talking about it."
       ],
       "screen_captions": [
-        "10K \u2192 850K",
-        "ONE PERSON",
-        "NO EMPLOYEES"
+        "10K → 850K",
+        "ONE PERSON. NO TEAM.",
+        "THE RULES CHANGED"
       ],
-      "full_script": "There's never been an easier time to start a brand. One person starting with just 10K capital, eight months later, they just did 850K in January. No employees, no office, no warehouse. This is the full-stack revolution and it's about to make traditional business models obsolete. The old way of scaling a business meant scaling headcount. I had over 1,000 staff. But that was the only way to do it until now. Because in the last 18 months, something broke. The rules have changed and most people haven't caught up. The inventory model is China bonded warehouse. Replenish in five to seven days. Pre-sell when you run out. Positive cashflow. Ship globally from day one. Run cost caps in Facebook and the algorithm finds conversions wherever you can afford it. There is no team. AI handles customer service, 3PL does fulfillment, Shopify does the store and Meta does the distribution. This isn't a side hustle, this is a one person $10 million a year business. Skills are depreciating faster than ever. A video editor who was amazing at Premiere Pro can now get schooled by a 19 year old with CapCut and AI. Chatbots are wiping out more than 90% of customer service tickets now. This isn't about being replaced, it's about roles collapsing.",
+      "full_script": "1. HOOK: Specific proof — numbers, timeframe, 'no employees'\n2. 'This is the full-stack revolution'\n3. Old way vs new way — 'I used to need [X people]. Now it takes one.'\n4. The framework: AI + global infrastructure + algorithm distribution\n5. Specific tools: Shopify, Meta cost caps, 3PL, AI customer service\n6. 'This isn't a side hustle. This is a one person $10M business.'\n7. The uncomfortable truth: 'skills are depreciating faster than ever'\n8. Examples of roles collapsing\n9. 'This isn't about being replaced. It's about roles collapsing.'\n\nKEY: Need credibility to pull this off. Use real examples. Simon's credibility ($300M exit) makes this land.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUnDLr4lGyd/",
-      "why_it_worked": "Specific proof (10K\u2192850K), credibility (his own $300M exit), clear framework, actionable insight.",
-      "template": "PARADIGM SHIFT: Bold claim \u2192 proof \u2192 'old way vs new way' \u2192 specific framework \u2192 'roles are collapsing'.",
-      "notes": "Works because he has the credibility to say 'I had 1000 staff but you don't need that anymore'."
+      "notes": "Bold claims need proof. Use real case studies. 44K views."
     },
     {
-      "id": "dubi-news-50k",
-      "title": "#10 \u2014 AI News Rapid-Fire Roundup (50K views)",
+      "id": "news-dump-rapid",
+      "title": "Everything that just happened in AI today",
       "status": "draft",
-      "competitor_style": "@dubibuilds \u2014 50K views, 3K likes",
+      "competitor_style": "@dubibuilds — 50K views",
       "hooks": [
-        "Alright, let me walk you through what just happened because this is getting ridiculous.",
-        "[Everything that happened today in AI]",
-        "[Stack multiple shocking stories fast]"
+        "Alright let me walk you through what just happened because this is getting ridiculous.",
+        "5 insane things happened in AI in the last 24 hours. Most people missed all of them.",
+        "The AI news from today is so wild I had to make this immediately."
       ],
       "screen_captions": [
         "THIS IS RIDICULOUS",
-        "ALL IN ONE DAY",
-        "ARE YOU PAYING ATTENTION?"
+        "5 THINGS IN 24 HOURS",
+        "YOU NEED TO SEE THIS"
       ],
-      "full_script": "Alright, let me walk you through what just happened because this is getting ridiculous. First up, the co-founder of xAI just left and on his way out, he said recursive self-improvement loops go live in the next 12 months, meaning AI that makes itself smarter, on repeat, without us. But oh boy, we're just getting started. The head of Anthropic Safety Research also left, and I quote, the world is in peril, then said he wants to become invisible. The guy whose entire job was making sure AI stays safe just walked out the door. And it gets worse. Claude's Opus 4.6 got caught being aware it was being tested. It acted good when it knew researchers were watching, and it was running hidden thinking that the researchers couldn't even see. Let that sink in. The AI was performing for its evaluators. And on top of all of that, DeepSeek just had its second moment. A model called Seedance is now threatening to replace China's entire film and advertising industry. All of this in one single day. If you're still climbing a corporate ladder or relying on a monthly salary, the ground underneath you is shifting faster than you think. Follow if you want to stay ahead.",
+      "full_script": "1. HOOK: 'Let me walk you through what just happened'\n2. Story 1 — the craziest one first. Quick, punchy.\n3. 'But we're just getting started'\n4. Story 2 — build on the urgency\n5. 'And it gets worse'\n6. Story 3 — the one that makes people think\n7. 'Let that sink in'\n8. Story 4-5 — rapid fire\n9. 'All of this in one single day'\n10. Hot take / call to action: 'The ground is shifting. Follow to stay ahead.'\n\nKEY: Easy to do weekly. Just collect 4-5 craziest AI stories. Rapid pacing. No long pauses.",
       "platform": "IG",
       "url": "https://www.instagram.com/p/DUpnspqEt5k/",
-      "why_it_worked": "Rapid-fire pacing + multiple shocking stories + urgency + 'follow to stay ahead' CTA.",
-      "template": "NEWS DUMP: 'Let me walk you through what just happened' \u2192 stack 3-5 stories \u2192 build urgency \u2192 CTA.",
-      "notes": "Easy to replicate weekly. Just collect the craziest AI stories of the day."
+      "notes": "Repeatable weekly. Low effort, high views. Just stack the news. 50K views."
+    },
+    {
+      "id": "day-series-continuation",
+      "title": "Day [X]: Update on the experiment",
+      "status": "draft",
+      "competitor_style": "@buildwithcody — 77K views",
+      "hooks": [
+        "Day 3. Remember that AI experiment? Here's what happened while I was sleeping.",
+        "Update: the AI agent found its first customer. I'm not kidding.",
+        "So the comments said this was all a marketing stunt. Let me show you what happened."
+      ],
+      "screen_captions": [
+        "DAY 3 UPDATE",
+        "IT ACTUALLY WORKED?",
+        "WAS THIS A SCAM?"
+      ],
+      "full_script": "1. HOOK: Reference the series — 'remember the experiment?'\n2. Address comments / skeptics — 'people said X, let me show you'\n3. Show real progress — screen recordings, data, results\n4. The honest part — what went wrong\n5. New idea or pivot based on what happened\n6. Show the tool / setup in action\n7. Cliff hanger: 'We need one person to say yes. Follow for day [X+1].'\n\nKEY: Address skeptics directly. Show proof. End with cliffhanger. Each day builds momentum.",
+      "platform": "IG",
+      "url": "https://www.instagram.com/p/DU0fNOkknTP/",
+      "notes": "Continuation of the Day X series. Each episode references the last. 77K views on Day 3."
     }
   ]
 }
